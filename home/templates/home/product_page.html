@@ -1,0 +1,260 @@
+{% load static wagtailcore_tags wagtailimages_tags %}
+
+
+
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>KISMAT PETROLIUM</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{% static 'resources/images/logo/logo.png' %}" sizes="100x100" type="image/png">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/LineIcons.css' %}">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/default.css' %}">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'resources/css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/slick/slick/slick.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'vendors/slick/slick/slick-theme.css' %}"/>
+
+
+    <!-- ManyChat -->
+<script src="//widget.manychat.com/100821988548005.js" async="async"></script>
+      
+
+      
+</head>
+
+<body>
+   
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                       
+                        <a class="navbar-brand" href="#">
+                            <img src="{% static 'resources/images/logo/logo.png' %}" alt="Logo">
+                        </a>
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active"><a class="page-scroll" href="{{page.get_parent.url}}#home">HOME</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#services">WHAT WE DO</a></li>
+                                <!-- <li class="nav-item"><a class="page-scroll" href="#about">About</a></li> -->
+                               
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#portfolio">OUR PRODUCTS</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#about">ABOUT</a></li>
+                                
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#team">VISION & MISSION</a></li>
+                                <!-- <li class="nav-item"><a class="page-scroll" href="#pricing">Blog</a></li> -->
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#contact">CONTACTS</a></li>
+                            </ul>
+                        </div>
+                        
+                      
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+   
+  
+    
+   
+   
+   
+    <section id="services" class="features-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title"></h3>
+                        
+                    </div> 
+                </div>
+            </div> 
+           
+                {% with blocks=self.body %}
+                    {% for block in blocks %}
+                    <div class="row">
+                        <div>{% include_block block %}</div>
+                    </div> 
+                    {% endfor %} 
+
+                {% endwith %}
+                <!-- <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                       
+                        
+                        <div class="features-content">
+                            <a class="features-btn"></a>
+                            <p class="text"></p>
+                            
+                        </div>
+                    </div> 
+                </div> -->
+               
+               
+               
+               
+                
+           
+        </div> 
+    </section>
+
+   
+
+   
+   
+   
+   
+  
+    <section class="footer-area footer-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="footer-logo text-center">
+                        <a class="mt-10" href="home_page.html"><img src="{% static 'resources/images/logo/logo.png' %}" alt="Logo"></a>
+                    </div> <!-- footer logo -->
+                    <ul class="social text-center mt-30">
+                        <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
+                        <li><a href="https://twitter.com/uideckHQ"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="https://instagram.com/uideckHQ"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                    </ul> <!-- social -->
+                    <div class="footer-support text-center">
+                        <span class="number">+xxxxxxxxxxxx</span>
+                        <span class="mail">xxxxxxxxxx@xxxxxxxx.com</span>
+                    </div>
+                   
+                </div>
+            </div> 
+        </div> 
+    </section>
+   
+
+   
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+  
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="{% static 'assets/js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/modernizr-3.7.1.min.js' %}"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="{% static 'assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="{% static 'assets/js/slick.min.js' %}"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="{% static 'assets/js/ajax-contact.js' %}"></script>
+    
+    <!--====== Isotope js ======-->
+    <script src="{% static 'assets/js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/js/isotope.pkgd.min.js' %}"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="{% static 'assets/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/js/scrolling-nav.js' %}"></script>
+    
+    <!--====== Main js ======-->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'vendors/slick/slick/slick.min.js' %}"></script>
+    
+    <script>
+   
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            }
+        $(document).ready(function () {
+                $('.carousel').carousel({
+                    interval:3000,
+                });
+                $('.team-area .container .slick, .features-area .container .slick').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    accessibility: true,
+                    arrows: true,
+                });
+            });
+    </script>
+    <style>
+        
+        .cardtext{
+            color: rgb(49, 49, 49) !important;
+            font-size:25px;
+            text-align:center;
+            font-weight: 600;
+        }
+    </style>
+ 
+</body>
+
+</html>

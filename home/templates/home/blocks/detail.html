@@ -1,0 +1,14 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+
+    <div class="mt-3 mb-3">
+    
+      <h5 class="card-title">{{self.product}}</h5>
+      <p class="lead" style="color:white;">
+        {{self.description}}
+      </p>
+      
+      <a href="{{self.product_file.url}}" class="btn btn-outline-info mt-3">Download</a>
+      
+    </div>
+
+

@@ -5,6 +5,7 @@ class ProductBlock(blocks.StructBlock):
     product = blocks.CharBlock()
     description=blocks.RichTextBlock()
     product_file=DocumentChooserBlock()
-
+    
     class Meta:
         icon = 'placeholder'
+        template = 'home/blocks/detail.html'

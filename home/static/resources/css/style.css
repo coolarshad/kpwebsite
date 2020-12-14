@@ -41,6 +41,9 @@ a{
 #home p{
     color: white;
 }
+.lead p{
+    color: white!important;
+}
 #home .carousel-caption{
     top: 70%;
     left: 50%;

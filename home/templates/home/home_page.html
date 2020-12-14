@@ -105,12 +105,6 @@
     </section>
 
    
-  
-    
-    <!--====== NAVBAR TWO PART ENDS ======-->
-    
-    <!--====== SLIDER PART START ======-->
-
     <section id="home" class="slider_area">
         <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
             <ol class="carousel-indicators">
@@ -170,8 +164,9 @@
                         {% image w.image max-500x200 %}
                         
                         <div class="features-content">
-                            <p class="text">{{w.description|richtext}}</p>
                             <a class="features-btn">{{w.title}}</a>
+                            <p class="text">{{w.description|richtext}}</p>
+                            
                         </div>
                     </div> 
                 </div>
@@ -183,8 +178,6 @@
             </div> 
         </div> 
     </section>
-
-   
 
     <section id="portfolio" class="portfolio-area portfolio-four pb-100">
         <div class="container">
@@ -201,35 +194,37 @@
                     <div class="portfolio-menu text-center mt-50">
                         <ul>
                             <li data-filter="*" class="active">ALL</li>
-                            <li data-filter=".baseoil" >BASE OIL</li>
-                            <li data-filter=".automobile">FUEL OIL</li>
-                            <li data-filter=".mining">BITUMEN</li>
-                            <li data-filter=".construction">RUBBER PROCESS OIL</li>
-                            <li data-filter=".ships">SOLVENTS</li>
-                            <li data-filter=".ships">GAS OIL</li>
-                            <li data-filter=".ships">POLYMERS</li>
-                            <li data-filter=".ships">LPG</li>
-                            <li data-filter=".ships">LUBRICANTS</li>
+                            <li data-filter=".base-oil" >BASE OIL</li>
+                            <li data-filter=".fuel-oil">FUEL OIL</li>
+                            <li data-filter=".bitumen">BITUMEN</li>
+                            <li data-filter=".rubber-process-oil">RUBBER PROCESS OIL</li>
+                            <li data-filter=".solvents">SOLVENTS</li>
+                            <li data-filter=".gas-oil">GAS OIL</li>
+                            <li data-filter=".polymers">POLYMERS</li>
+                            <li data-filter=".lpg">LPG</li>
+                            <li data-filter=".lubricants">LUBRICANTS</li>
                         </ul>
                     </div> 
                 </div>
                 <div class="col-lg-9 col-md-9">
                     <div class="row no-gutters grid mt-50">
-                        <div class="col-lg-4 col-sm-6 lubricants">
+                       {% for product in productpages %} 
+                        <div class="col-lg-4 col-sm-6 {{product.slug}}">
                             <div class="single-portfolio">
                                 <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-1.jpg' %}" alt="">
+                                    {% image product.image width-400 height-280 %}
                                     <div class="portfolio-overlay d-flex align-items-center justify-content-center">
                                         <div class="portfolio-content">
                                             <div class="portfolio-icon">
-                                                <p class="cardtitle">BASE OIL</p>
-                                                <a class="btn cardbtn">More >></a>
+                                                <p class="cardtitle">{{product.title}}</p>
+                                                <a class="btn cardbtn" href="{% pageurl product %}">More >></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div> 
                         </div>
+                        {% endfor %}
                         <div class="col-lg-4 col-sm-6 automobile">
                             <div class="single-portfolio">
                                 <div class="portfolio-image">
@@ -306,102 +301,14 @@
                                 </div>
                             </div> 
                         </div>
-                        <div class="col-lg-4 col-sm-6 ships">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-1.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-1.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 construction">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-1.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-1.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 automobile">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-1.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-1.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 automobile">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-1.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-1.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
+                        
                     </div> 
                 </div>
             </div> 
         </div> 
     </section>
 
-    {% for ppage in productpages %}
-       <p> {{ppage.title}} </p>
-       {% image ppage.image fill-200x200 %}
-       {% for block in ppage.body %}
-            
-                <p>{{block.product.value}}</p>
-           
-           
-                <p>{{block.description}}</p>
-           
-                <p>{{block.product_file.url}}</p>
-          
-       {% endfor %}
-    {% endfor %}
+   
     <section id="about" class="about-area">
         <div class="container">
             <div class="row justify-content-center">
@@ -417,7 +324,7 @@
                     <div class="testimonial-left-content mt-45">
                         
                       
-                       
+                        <div class="pt-5"></div>
                         <p class="text p_copy pt-3">KISMAT PETROLEUM TRADING PTE LTD IS ONE OF THE LEADING INDEPENDENT ENERGY TRADING COMPANIES IN SOUTH EAST ASIA. STRATEGICALLY HEADQUARTERED IN SINGAPORE, WE CATER TO CUSTOMERS ACROSS THE GLOBE IN OVER 40+ COUNTRIES</p>
                     </div> 
                 </div>
@@ -646,14 +553,14 @@
                     <div class="section-title text-center pb-30">
                         <h3 class="title">VISION & MISSION</h3>
                         <p class="text">{{visionmission.vision|richtext}}</p>
+                        <br>
+                        <p class="text">{{visionmission.mission|richtext}}</p>
                     </div> 
                     
                     
                 </div>
             </div> 
-            <div class="row mt-4">
-                <p style="color: white;">{{visionmission.mission|richtext}}</p>
-            </div>
+            
             <!-- <div class="row slick">
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
@@ -766,7 +673,7 @@
                             </div>
                         </div> <!-- single contact info -->
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-5 col-md-6">
                         <div class="single-contact-info contact-color-2 mt-30 d-flex ">
                             <div class="contact-info-icon">
                                 <i class="lni lni-envelope"></i>
@@ -777,7 +684,7 @@
                             </div>
                         </div> <!-- single contact info -->
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="single-contact-info contact-color-3 mt-30 d-flex ">
                             <div class="contact-info-icon">
                                 <i class="lni lni-phone"></i>

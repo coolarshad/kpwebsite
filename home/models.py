@@ -89,4 +89,5 @@ class ProductPage(Page):
         ImageChooserPanel('image'),
         StreamFieldPanel('body'),
     ]
+    
 
