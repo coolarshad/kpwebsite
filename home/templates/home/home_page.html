@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="{% static 'resources/images/logo/logo.png' %}" sizes="100x100" type="image/png">
+    <link rel="shortcut icon" href="{% static 'resources/images/logo.png' %}" sizes="100x100" type="image/png">
         
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
@@ -73,7 +73,7 @@
                     <nav class="navbar navbar-expand-lg">
                        
                         <a class="navbar-brand" href="#">
-                            <img src="{% static 'resources/images/logo/logo.png' %}" alt="Logo">
+                            <img src="{% static 'resources/images/logo.png' %}" alt="Logo">
                         </a>
                         
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,7 +161,7 @@
                 {% for w in whatwedos %}
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
-                        {% image w.image max-500x200 %}
+                        {% image w.image max-400x200 class="wcenter" %}
                         
                         <div class="features-content">
                             <a class="features-btn">{{w.title}}</a>
@@ -225,82 +225,9 @@
                             </div> 
                         </div>
                         {% endfor %}
-                        <div class="col-lg-4 col-sm-6 automobile">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-2.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-2.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mining">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-3.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-3.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 lubricants">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-4.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-4.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mining">
-                            <div class="single-portfolio">
-                                <div class="portfolio-image">
-                                    <img src="{% static 'resources/images/cons-5.jpg' %}" alt="">
-                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                        <div class="portfolio-content">
-                                            <div class="portfolio-icon">
-                                                <a class="image-popup" href="{% static 'resources/images/cons-5.jpg' %}"><i class="lni lni-zoom-in"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                            <div class="portfolio-icon">
-                                                <a href="#"><i class="lni lni-link"></i></a>
-                                                <img src="{% static 'resources/images/portfolio/shape.svg' %}" alt="shape" class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
+                      
+                       
+                       
                         
                     </div> 
                 </div>
@@ -550,16 +477,31 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
-                    <div class="section-title text-center pb-30">
+                    <div class="section-title text-center pb-30 mb-3">
                         <h3 class="title">VISION & MISSION</h3>
-                        <p class="text">{{visionmission.vision|richtext}}</p>
-                        <br>
-                        <p class="text">{{visionmission.mission|richtext}}</p>
                     </div> 
                     
                     
                 </div>
-            </div> 
+            
+           
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card card-1">
+                      <h3>Vision</h3>
+                      <p>{{visionmission.vision|richtext}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card card-2">
+                      <h3>Mission</h3>
+                      <p>{{visionmission.mission|richtext}}</p>
+                    </div>
+                  </div>
+                 </div>
+                 
+                </div>
+              
             
             <!-- <div class="row slick">
                 <div class="col-lg-4 col-sm-6">
@@ -754,9 +696,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-10" href="home_page.html"><img src="{% static 'resources/images/logo/logo.png' %}" alt="Logo"></a>
+                        <a class="mt-2" href="home_page.html"><img src="{% static 'resources/images/logo/logo.png' %}" height="300px" width="100%"  alt="Logo"></a>
                     </div> <!-- footer logo -->
-                    <ul class="social text-center mt-30">
+                    <ul class="social text-center mt-2">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
                         <li><a href="https://twitter.com/uideckHQ"><i class="lni lni-twitter-original"></i></a></li>
                         <li><a href="https://instagram.com/uideckHQ"><i class="lni lni-instagram-original"></i></a></li>
@@ -907,34 +849,64 @@
             font-weight: 600;
         }
       
-        /* .slide .carousel-inner .carousel-item {
-            transition-property: opacity;
-        }
-         */
-        /* .slide .carousel-inner .carousel-item,
-        .slide .carousel-inner .active.left,
-        .slide .carousel-inner .active.right {
-            opacity: 0;
-        } */
+        .wcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+       
 
-        /* .slide .carousel-inner .active,
-        .slide .carousel-inner.next.left,
-        .slide .carousel-inner.prev.right {
-            opacity: 1;
-        } */
+       
 
-        /* .slide .carousel-inner.next,
-        .slide .carousel-inner.prev,
-        .slide .carousel-inner.active.left,
-        .slide .carousel-inner.active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        } */
-    
+      
+     .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
 
-        /* .slide .carousel-inner.carousel-control {
-        z-index: 2;
-    } */
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+  color:rgb(34, 33, 33);
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
 
     </style>
  

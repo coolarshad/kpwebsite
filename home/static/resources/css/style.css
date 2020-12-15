@@ -12,12 +12,12 @@ html{
 
 .navbar-area .container nav .navbar-brand img{
     display:inline-block;
-    height:200px;
+    height:150px;
 }
 .navbar-area .container nav{
     position: fixed;
     background-color:rgb(255, 255, 255);
-    height:100px;
+    height:120px;
     width: 100%;
     top: 0;
     right: 0;
@@ -56,7 +56,7 @@ a{
     left:0px;
     height:100%;
     width:100%;
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0, 0, 0, 0.25);
 }
 #carouselExampleIndicators{
     margin-top: 100px;
