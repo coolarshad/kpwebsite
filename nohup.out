@@ -1,0 +1,1329 @@
+Watching for file changes with StatReloader
+[15/Dec/2020 10:01:40] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 10:01:41] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/popper.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/resources/images/logo.png HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/resources/images/author-2.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /static/resources/images/author-3.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:41] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /static/resources/images/author-1.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /static/resources/images/logo/logo.png HTTP/1.1" 304 0
+[15/Dec/2020 10:01:42] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 304 0
+[15/Dec/2020 10:01:43] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 10:04:38] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:38] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:38] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:38] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:38] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:38] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:39] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:39] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:39] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[15/Dec/2020 10:04:39] "GET /static/assets/js/bootstrap.min.js.map HTTP/1.1" 404 1834
+[15/Dec/2020 10:04:39] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1825
+[15/Dec/2020 10:04:39] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1840
+[15/Dec/2020 10:04:39] "GET /static/assets/css/style.css.map HTTP/1.1" 200 60768
+[15/Dec/2020 10:11:37] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 10:11:37] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 200 6951
+[15/Dec/2020 10:11:37] "GET /static/assets/css/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 10:11:37] "GET /static/assets/css/LineIcons.css HTTP/1.1" 200 28218
+[15/Dec/2020 10:11:37] "GET /static/assets/css/default.css HTTP/1.1" 200 10372
+[15/Dec/2020 10:11:37] "GET /static/resources/css/style.css HTTP/1.1" 200 4471
+[15/Dec/2020 10:11:37] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 10:11:37] "GET /static/assets/css/style.css HTTP/1.1" 200 111169
+[15/Dec/2020 10:11:37] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 155758
+[15/Dec/2020 10:11:37] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 200 3145
+[15/Dec/2020 10:11:37] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 21004
+[15/Dec/2020 10:11:37] "GET /static/assets/js/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 10:11:37] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 200 8599
+[15/Dec/2020 10:11:37] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 58072
+[15/Dec/2020 10:11:37] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[15/Dec/2020 10:11:37] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[15/Dec/2020 10:11:38] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 200 1201
+[15/Dec/2020 10:11:38] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 200 5594
+[15/Dec/2020 10:11:38] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 200 51608
+[15/Dec/2020 10:11:38] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[15/Dec/2020 10:11:38] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 200 5564
+[15/Dec/2020 10:11:38] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 200 272742
+[15/Dec/2020 10:11:38] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 10:11:38] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 200 13980
+[15/Dec/2020 10:11:38] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 16009
+[15/Dec/2020 10:11:38] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 25130
+[15/Dec/2020 10:11:39] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1840
+[15/Dec/2020 10:11:39] "GET /static/assets/js/main.js HTTP/1.1" 200 5013
+[15/Dec/2020 10:11:39] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 200 655
+[15/Dec/2020 10:11:39] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 10:11:39] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 200 15984
+[15/Dec/2020 10:11:39] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 200 9955
+[15/Dec/2020 10:11:39] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 200 27573
+[15/Dec/2020 10:11:39] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 200 404714
+[15/Dec/2020 10:11:39] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 200 20769
+[15/Dec/2020 10:11:39] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 200 13602
+[15/Dec/2020 10:11:39] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 200 9297
+[15/Dec/2020 10:11:39] "GET /static/resources/images/author-1.jpg HTTP/1.1" 200 14120
+[15/Dec/2020 10:11:40] "GET /static/resources/images/author-2.jpg HTTP/1.1" 200 12891
+[15/Dec/2020 10:11:40] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 200 2064355
+[15/Dec/2020 10:11:40] "GET /static/assets/css/style.css.map HTTP/1.1" 200 60768
+[15/Dec/2020 10:11:40] "GET /static/resources/images/author-3.jpg HTTP/1.1" 200 14459
+[15/Dec/2020 10:11:40] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 10:11:40] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1825
+[15/Dec/2020 10:11:40] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 200 4178
+[15/Dec/2020 10:11:40] "GET /static/assets/js/bootstrap.min.js.map HTTP/1.1" 404 1834
+[15/Dec/2020 10:11:41] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 200 2895634
+[15/Dec/2020 10:11:41] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 10:11:56] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 10:11:57] "GET /static/assets/css/style.css.map HTTP/1.1" 200 60768
+[15/Dec/2020 10:11:57] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1840
+[15/Dec/2020 10:11:58] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1825
+[15/Dec/2020 10:11:58] "GET /static/assets/js/bootstrap.min.js.map HTTP/1.1" 404 1834
+[15/Dec/2020 10:11:59] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /db_structure.php
+[15/Dec/2020 11:00:06] "GET /db_structure.php?server=1&db=bubblestreet HTTP/1.1" 400 66036
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Dec/2020 11:00:11] "GET /favicon.ico HTTP/1.1" 400 65361
+[15/Dec/2020 11:01:03] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 11:01:06] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 200 6951
+[15/Dec/2020 11:01:06] "GET /static/assets/css/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 11:01:06] "GET /static/assets/css/LineIcons.css HTTP/1.1" 200 28218
+[15/Dec/2020 11:01:06] "GET /static/assets/css/default.css HTTP/1.1" 200 10372
+[15/Dec/2020 11:01:07] "GET /static/resources/css/style.css HTTP/1.1" 200 4471
+[15/Dec/2020 11:01:07] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 11:01:07] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 200 3145
+[15/Dec/2020 11:01:08] "GET /static/assets/css/style.css HTTP/1.1" 200 111169
+[15/Dec/2020 11:01:10] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 155758
+[15/Dec/2020 11:01:13] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[15/Dec/2020 11:01:13] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 200 272742
+[15/Dec/2020 11:01:14] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 200 8599
+[15/Dec/2020 11:01:14] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 21004
+[15/Dec/2020 11:01:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 58072
+[15/Dec/2020 11:01:14] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[15/Dec/2020 11:01:14] "GET /static/assets/js/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 11:01:14] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 200 1201
+[15/Dec/2020 11:01:15] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 200 5594
+[15/Dec/2020 11:01:15] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[15/Dec/2020 11:01:16] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 200 5564
+[15/Dec/2020 11:01:16] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 200 655
+[15/Dec/2020 11:01:16] "GET /static/assets/js/main.js HTTP/1.1" 200 5013
+[15/Dec/2020 11:01:16] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 11:01:17] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 11:01:18] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 200 20769
+[15/Dec/2020 11:01:20] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 200 13602
+[15/Dec/2020 11:01:21] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 200 9297
+[15/Dec/2020 11:01:21] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 200 13980
+[15/Dec/2020 11:01:22] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 200 9955
+[15/Dec/2020 11:01:22] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 200 404714
+[15/Dec/2020 11:01:22] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 200 27573
+[15/Dec/2020 11:01:22] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 200 15984
+[15/Dec/2020 11:01:24] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 25130
+[15/Dec/2020 11:01:24] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 200 2064355
+[15/Dec/2020 11:01:25] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 16009
+[15/Dec/2020 11:01:25] "GET /static/resources/images/author-1.jpg HTTP/1.1" 200 14120
+[15/Dec/2020 11:01:25] "GET /static/resources/images/author-3.jpg HTTP/1.1" 200 14459
+[15/Dec/2020 11:01:28] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 11:01:28] "GET /static/resources/images/author-2.jpg HTTP/1.1" 200 12891
+[15/Dec/2020 11:01:30] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 200 4178
+[15/Dec/2020 11:01:30] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 200 51608
+[15/Dec/2020 11:01:33] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 200 2895634
+[15/Dec/2020 11:02:55] "GET /bitumen/ HTTP/1.1" 200 9678
+[15/Dec/2020 11:03:03] "GET /documents/12/BITUMEN-80-100.pdf HTTP/1.1" 200 183901
+Not Found: /favicon.ico
+[15/Dec/2020 11:03:06] "GET /favicon.ico HTTP/1.1" 404 3238
+[15/Dec/2020 11:03:23] "GET /rubber-process-oil/ HTTP/1.1" 200 9688
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin
+[15/Dec/2020 11:05:00] "GET /phpmyadmin HTTP/1.1" 400 65346
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Dec/2020 11:05:00] "GET /favicon.ico HTTP/1.1" 400 65326
+[15/Dec/2020 11:35:44] "GET /base-oil/ HTTP/1.1" 200 10120
+[15/Dec/2020 11:35:44] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:44] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:44] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:44] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/popper.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:45] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/resources/images/logo/logo.png HTTP/1.1" 304 0
+[15/Dec/2020 11:35:46] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 304 0
+[15/Dec/2020 11:35:52] "GET /documents/9/GROUP-1-BASE-OIL-SN-500.pdf HTTP/1.1" 200 480645
+[15/Dec/2020 12:06:16] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 12:06:18] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/popper.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:18] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /static/resources/images/logo.png HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:19] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /static/resources/images/author-1.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /static/resources/images/author-2.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /static/resources/images/author-3.jpg HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /static/resources/images/logo/logo.png HTTP/1.1" 304 0
+[15/Dec/2020 12:06:20] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 304 0
+[15/Dec/2020 12:06:30] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 12:06:30] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 200 6951
+[15/Dec/2020 12:06:30] "GET /static/assets/css/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 12:06:30] "GET /static/assets/css/LineIcons.css HTTP/1.1" 200 28218
+[15/Dec/2020 12:06:31] "GET /static/assets/css/default.css HTTP/1.1" 200 10372
+[15/Dec/2020 12:06:31] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 200 1776
+[15/Dec/2020 12:06:31] "GET /static/resources/css/style.css HTTP/1.1" 200 4471
+[15/Dec/2020 12:06:31] "GET /static/assets/css/style.css HTTP/1.1" 200 111169
+[15/Dec/2020 12:06:31] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 200 3145
+[15/Dec/2020 12:06:32] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 155758
+[15/Dec/2020 12:06:32] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[15/Dec/2020 12:06:33] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 200 8599
+[15/Dec/2020 12:06:33] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 21004
+[15/Dec/2020 12:06:33] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 58072
+[15/Dec/2020 12:06:33] "GET /static/assets/js/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 12:06:33] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[15/Dec/2020 12:06:34] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 200 1201
+[15/Dec/2020 12:06:34] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 200 5594
+[15/Dec/2020 12:06:34] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[15/Dec/2020 12:06:35] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 200 5564
+[15/Dec/2020 12:06:35] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 200 655
+[15/Dec/2020 12:06:35] "GET /static/assets/js/main.js HTTP/1.1" 200 5013
+[15/Dec/2020 12:06:35] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 200 42863
+[15/Dec/2020 12:06:35] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 200 272742
+[15/Dec/2020 12:06:36] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 200 9297
+[15/Dec/2020 12:06:36] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 200 13602
+[15/Dec/2020 12:06:36] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 12:06:36] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 200 20769
+[15/Dec/2020 12:06:37] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 200 4178
+[15/Dec/2020 12:06:38] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 200 9955
+[15/Dec/2020 12:06:38] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 200 15984
+[15/Dec/2020 12:06:38] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 200 27573
+[15/Dec/2020 12:06:39] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 200 404714
+[15/Dec/2020 12:06:40] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 25130
+[15/Dec/2020 12:06:40] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 16009
+[15/Dec/2020 12:06:40] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 200 13980
+[15/Dec/2020 12:06:42] "GET /static/resources/images/author-1.jpg HTTP/1.1" 200 14120
+[15/Dec/2020 12:06:42] "GET /static/resources/images/author-2.jpg HTTP/1.1" 200 12891
+[15/Dec/2020 12:06:42] "GET /static/resources/images/author-3.jpg HTTP/1.1" 200 14459
+[15/Dec/2020 12:06:42] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 12:06:44] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 200 51608
+[15/Dec/2020 12:06:56] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 200 2064355
+[15/Dec/2020 12:07:01] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 200 2895634
+[15/Dec/2020 12:07:04] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[15/Dec/2020 12:08:21] "GET /lubricants/ HTTP/1.1" 200 9681
+[15/Dec/2020 12:10:27] "GET /solvents/ HTTP/1.1" 200 9712
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Dec/2020 13:18:10] "GET / HTTP/1.1" 400 65234
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Dec/2020 13:18:11] "GET /favicon.ico HTTP/1.1" 400 65314
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Dec/2020 13:18:31] "GET / HTTP/1.1" 400 65371
+Invalid HTTP_HOST header: 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com:8000'. You may need to add 'ec2-13-127-42-251.ap-south-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[15/Dec/2020 13:18:32] "GET /favicon.ico HTTP/1.1" 400 65314
+[15/Dec/2020 13:25:24] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Dec/2020 13:25:24] "    c                           " 400 -
+[15/Dec/2020 14:20:47] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 17:21:07] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 18:23:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 18:23:40] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 18:41:02] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Dec/2020 18:41:02] "    c                           " 400 -
+[15/Dec/2020 19:01:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 19:01:10] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 19:35:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 19:35:07] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 20:03:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 20:03:42] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 20:27:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 20:27:16] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 20:47:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 20:47:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 20:51:14] "GET / HTTP/1.1" 200 55860
+[15/Dec/2020 21:06:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 21:06:11] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 21:25:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 21:25:17] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 21:43:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 21:43:36] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 22:01:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 22:01:54] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 22:19:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 22:19:50] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 22:37:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 22:37:59] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 23:31:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 23:31:58] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'ip.ws.126.net:443'. You may need to add 'ip.ws.126.net' to ALLOWED_HOSTS.
+Bad Request: /ip.ws.126.net:443
+[15/Dec/2020 23:56:00] "CONNECT ip.ws.126.net:443 HTTP/1.1" 400 63077
+[16/Dec/2020 02:10:51] code 400, message Bad request version ('À\x14À')
+[16/Dec/2020 02:10:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'ip-172-31-33-186.ap-south-1.compute.internal:8000'. You may need to add 'ip-172-31-33-186.ap-south-1.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /index.html
+[16/Dec/2020 04:05:00] "GET /index.html HTTP/1.0" 400 63125
+[16/Dec/2020 05:21:25] "GET /admin/ HTTP/1.1" 302 0
+[16/Dec/2020 05:21:25] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 8502
+[16/Dec/2020 05:21:25] "GET /static/wagtailadmin/js/vendor/modernizr-2.6.2.min.js?v=3e1fe316 HTTP/1.1" 200 10583
+[16/Dec/2020 05:21:25] "GET /static/wagtailadmin/css/normalize.css?v=3e1fe316 HTTP/1.1" 200 2359
+[16/Dec/2020 05:21:25] "GET /static/wagtailadmin/css/vendor/jquery.tagit.css?v=3e1fe316 HTTP/1.1" 200 832
+[16/Dec/2020 05:21:25] "GET /static/wagtailadmin/css/vendor/jquery-ui/jquery-ui-1.10.3.verdant.css?v=3e1fe316 HTTP/1.1" 200 26865
+[16/Dec/2020 05:21:25] "GET /static/wagtailadmin/css/layouts/login.css?v=3e1fe316 HTTP/1.1" 200 1894
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/jquery.autosize.js?v=3e1fe316 HTTP/1.1" 200 5571
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/jquery-3.5.1.min.js?v=3e1fe316 HTTP/1.1" 200 89476
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/css/core.css?v=3e1fe316 HTTP/1.1" 200 85666
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/bootstrap-transition.js?v=3e1fe316 HTTP/1.1" 200 2087
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/jquery.datetimepicker.js?v=3e1fe316 HTTP/1.1" 200 110564
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/bootstrap-modal.js?v=3e1fe316 HTTP/1.1" 200 7031
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/bootstrap-tab.js?v=3e1fe316 HTTP/1.1" 200 3563
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/tag-it.js?v=3e1fe316 HTTP/1.1" 200 21946
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor/jquery-ui-1.12.1.min.js?v=3e1fe316 HTTP/1.1" 200 253669
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/core.js?v=3e1fe316 HTTP/1.1" 200 18634
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/wagtailadmin.js?v=3e1fe316 HTTP/1.1" 200 72032
+[16/Dec/2020 05:21:26] "GET /admin/sprite-13c69326/ HTTP/1.1" 200 88394
+[16/Dec/2020 05:21:26] "GET /static/wagtailadmin/js/vendor.js?v=3e1fe316 HTTP/1.1" 200 228291
+[16/Dec/2020 05:21:27] "GET /static/wagtailadmin/fonts/wagtail.woff HTTP/1.1" 200 24408
+[16/Dec/2020 05:21:27] "GET /static/wagtailadmin/fonts/opensans-regular.woff2 HTTP/1.1" 200 68812
+[16/Dec/2020 05:21:27] "GET /static/wagtailadmin/fonts/opensans-light.woff2 HTTP/1.1" 200 65728
+[16/Dec/2020 05:21:28] "GET /static/wagtailadmin/images/favicon.ico?v=3e1fe316 HTTP/1.1" 200 2666
+[16/Dec/2020 05:21:38] "POST /admin/login/ HTTP/1.1" 302 0
+[16/Dec/2020 05:21:38] "GET /admin/ HTTP/1.1" 200 25469
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/images/wagtail-logo.svg?v=3e1fe316 HTTP/1.1" 200 3082
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/css/layouts/home.css?v=3e1fe316 HTTP/1.1" 200 2404
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/css/layouts/page-editor.css?v=3e1fe316 HTTP/1.1" 200 8526
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/images/logo-tail.svg?v=3e1fe316 HTTP/1.1" 200 177
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/images/logo-body.svg?v=3e1fe316 HTTP/1.1" 200 1331
+[16/Dec/2020 05:21:38] "GET /static/wagtailadmin/images/logo-eyeopen.svg?v=3e1fe316 HTTP/1.1" 200 218
+[16/Dec/2020 05:21:39] "GET /static/wagtailadmin/images/logo-eyeclosed.svg?v=3e1fe316 HTTP/1.1" 200 182
+[16/Dec/2020 05:21:39] "GET /static/wagtailadmin/fonts/opensans-bold.woff2 HTTP/1.1" 200 69428
+[16/Dec/2020 05:21:39] "GET /static/wagtailadmin/fonts/robotoslab-regular.woff2 HTTP/1.1" 200 87596
+[16/Dec/2020 05:21:39] "GET /static/wagtailadmin/fonts/opensans-semibold.woff2 HTTP/1.1" 200 69508
+[16/Dec/2020 05:21:51] "GET /admin/documents/ HTTP/1.1" 200 25549
+[16/Dec/2020 05:21:57] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 05:22:28] "GET /admin/pages/8/ HTTP/1.1" 200 76112
+[16/Dec/2020 05:22:29] "GET /static/wagtailadmin/js/privacy-switch.js?v=3e1fe316 HTTP/1.1" 200 2470
+[16/Dec/2020 05:22:29] "GET /static/wagtailadmin/js/modal-workflow.js?v=3e1fe316 HTTP/1.1" 200 3695
+[16/Dec/2020 05:23:04] "GET /admin/pages/18/edit/ HTTP/1.1" 200 56578
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/expanding_formset.js?v=3e1fe316 HTTP/1.1" 200 1172
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/vendor/mousetrap.min.js?v=3e1fe316 HTTP/1.1" 200 4696
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/css/panels/draftail.css?v=3e1fe316 HTTP/1.1" 200 11563
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/css/panels/streamfield.css HTTP/1.1" 200 6641
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/vendor/rangy-core.js?v=3e1fe316 HTTP/1.1" 200 47643
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/page-editor.js?v=3e1fe316 HTTP/1.1" 200 13183
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/vendor/xregexp.min.js?v=3e1fe316 HTTP/1.1" 200 62474
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/vendor/urlify.js?v=3e1fe316 HTTP/1.1" 200 8279
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/workflow-status.js?v=3e1fe316 HTTP/1.1" 200 272
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/workflow-action.js?v=3e1fe316 HTTP/1.1" 200 4268
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/lock-unlock-action.js?v=3e1fe316 HTTP/1.1" 200 1161
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/vendor/bootstrap-tooltip.js?v=3e1fe316 HTTP/1.1" 200 11928
+[16/Dec/2020 05:23:04] "GET /static/wagtailimages/js/image-chooser-modal.js?v=3e1fe316 HTTP/1.1" 200 5213
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/blocks/struct.js?v=3e1fe316 HTTP/1.1" 200 334
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/blocks/sequence.js?v=3e1fe316 HTTP/1.1" 200 13617
+[16/Dec/2020 05:23:04] "GET /static/wagtailadmin/js/draftail.js?v=3e1fe316 HTTP/1.1" 200 278899
+[16/Dec/2020 05:23:04] "GET /static/wagtailembeds/js/embed-chooser-modal.js?v=3e1fe316 HTTP/1.1" 200 697
+[16/Dec/2020 05:23:05] "GET /static/wagtailadmin/js/page-chooser-modal.js?v=3e1fe316 HTTP/1.1" 200 6124
+[16/Dec/2020 05:23:05] "GET /static/wagtaildocs/js/document-chooser-modal.js?v=3e1fe316 HTTP/1.1" 200 3825
+[16/Dec/2020 05:23:05] "GET /static/wagtailadmin/js/date-time-chooser.js?v=3e1fe316 HTTP/1.1" 200 3046
+[16/Dec/2020 05:23:05] "GET /static/wagtailimages/js/image-chooser.js?v=3e1fe316 HTTP/1.1" 200 1190
+[16/Dec/2020 05:23:05] "GET /static/wagtailadmin/js/blocks/stream.js?v=3e1fe316 HTTP/1.1" 200 6995
+[16/Dec/2020 05:23:05] "GET /static/wagtaildocs/js/document-chooser.js?v=3e1fe316 HTTP/1.1" 200 904
+[16/Dec/2020 05:23:05] "GET /media/images/IMAGE_8_-_BASE_OIL.max-165x165.jpg HTTP/1.1" 200 3210
+[16/Dec/2020 05:23:05] "GET /static/wagtailadmin/images/transparency.svg HTTP/1.1" 200 367
+[16/Dec/2020 05:25:02] "GET /admin/documents/chooser/ HTTP/1.1" 200 12376
+[16/Dec/2020 05:25:06] "GET /static/wagtailadmin/css/vendor/jquery-ui/images/ui-bg_flat_100_ffffff_40x100.png HTTP/1.1" 200 208
+[16/Dec/2020 05:26:13] "GET /admin/tag-autocomplete/?term=sn150 HTTP/1.1" 200 2
+[16/Dec/2020 05:26:15] "GET /admin/tag-autocomplete/?term=%20base%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:26:16] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:26:22] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 207
+[16/Dec/2020 05:26:43] "GET /admin/documents/chooser/ HTTP/1.1" 200 12371
+[16/Dec/2020 05:27:02] "GET /admin/tag-autocomplete/?term=sn HTTP/1.1" 200 9
+[16/Dec/2020 05:27:03] "GET /admin/tag-autocomplete/?term=sn300 HTTP/1.1" 200 2
+[16/Dec/2020 05:27:04] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:27:05] "GET /admin/tag-autocomplete/?term=%20base%20oil%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:27:06] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:27:09] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 207
+[16/Dec/2020 05:28:29] "GET /admin/documents/chooser/ HTTP/1.1" 200 12363
+[16/Dec/2020 05:28:59] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:29:00] "GET /admin/tag-autocomplete/?term=%20base%20oi HTTP/1.1" 200 2
+[16/Dec/2020 05:29:00] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:29:01] "GET /admin/tag-autocomplete/?term=%20base%20oil. HTTP/1.1" 200 2
+[16/Dec/2020 05:29:01] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:29:04] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 221
+[16/Dec/2020 05:29:48] "GET /admin/documents/chooser/ HTTP/1.1" 200 12396
+[16/Dec/2020 05:30:04] "GET /admin/tag-autocomplete/?term=base%20oi HTTP/1.1" 200 12
+[16/Dec/2020 05:30:05] "GET /admin/tag-autocomplete/?term=base%20oil HTTP/1.1" 200 12
+[16/Dec/2020 05:30:05] "GET /admin/tag-autocomplete/?term=base%20o HTTP/1.1" 200 12
+[16/Dec/2020 05:30:08] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:30:10] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:30:12] "GET /admin/tag-autocomplete/?term=bs%20150 HTTP/1.1" 200 2
+[16/Dec/2020 05:30:16] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 207
+[16/Dec/2020 05:31:17] "GET /admin/documents/chooser/ HTTP/1.1" 200 12383
+[16/Dec/2020 05:31:42] "GET /admin/tag-autocomplete/?term=n150 HTTP/1.1" 200 2
+[16/Dec/2020 05:31:42] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:31:44] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:31:44] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:31:46] "GET /admin/tag-autocomplete/?term=%20group HTTP/1.1" 200 2
+[16/Dec/2020 05:31:46] "GET /admin/tag-autocomplete/?term=%20group3 HTTP/1.1" 200 2
+[16/Dec/2020 05:31:47] "GET /admin/tag-autocomplete/?term=%20group HTTP/1.1" 200 2
+[16/Dec/2020 05:31:47] "GET /admin/tag-autocomplete/?term=%20group2 HTTP/1.1" 200 2
+[16/Dec/2020 05:31:50] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 236
+[16/Dec/2020 05:32:24] "GET /admin/documents/chooser/ HTTP/1.1" 200 12401
+[16/Dec/2020 05:32:38] "GET /admin/tag-autocomplete/?term=n HTTP/1.1" 200 8
+[16/Dec/2020 05:32:39] "GET /admin/tag-autocomplete/?term=n150%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:32:40] "GET /admin/tag-autocomplete/?term=n150 HTTP/1.1" 200 8
+[16/Dec/2020 05:32:45] "GET /admin/tag-autocomplete/?term=n15 HTTP/1.1" 200 8
+[16/Dec/2020 05:32:45] "GET /admin/tag-autocomplete/?term=n150 HTTP/1.1" 200 8
+[16/Dec/2020 05:32:47] "GET /admin/tag-autocomplete/?term=n150%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:32:53] "GET /admin/tag-autocomplete/?term=n HTTP/1.1" 200 8
+[16/Dec/2020 05:32:53] "GET /admin/tag-autocomplete/?term=n1 HTTP/1.1" 200 8
+[16/Dec/2020 05:32:54] "GET /admin/tag-autocomplete/?term=n150%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:32:55] "GET /admin/tag-autocomplete/?term=n150 HTTP/1.1" 200 8
+[16/Dec/2020 05:32:56] "GET /static/wagtailadmin/css/vendor/jquery-ui/images/ui-bg_flat_65_49c0c1_40x100.png HTTP/1.1" 200 206
+[16/Dec/2020 05:32:59] "GET /admin/tag-autocomplete/?term=base%20oil%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:00] "GET /admin/tag-autocomplete/?term=base%20oil HTTP/1.1" 200 12
+[16/Dec/2020 05:33:04] "GET /admin/tag-autocomplete/?term=group HTTP/1.1" 200 10
+[16/Dec/2020 05:33:07] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 204
+[16/Dec/2020 05:33:26] "GET /admin/documents/chooser/ HTTP/1.1" 200 12397
+[16/Dec/2020 05:33:49] "GET /admin/tag-autocomplete/?term=n HTTP/1.1" 200 8
+[16/Dec/2020 05:33:49] "GET /admin/tag-autocomplete/?term=n500 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:50] "GET /admin/tag-autocomplete/?term=n500 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:50] "GET /admin/tag-autocomplete/?term=n500%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:51] "GET /admin/tag-autocomplete/?term=n500 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:54] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:33:55] "GET /admin/tag-autocomplete/?term=group HTTP/1.1" 200 10
+[16/Dec/2020 05:33:59] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 203
+[16/Dec/2020 05:34:34] "GET /admin/documents/chooser/ HTTP/1.1" 200 12393
+[16/Dec/2020 05:35:05] "GET /admin/tag-autocomplete/?term=base%20oil HTTP/1.1" 200 12
+[16/Dec/2020 05:35:07] "GET /admin/tag-autocomplete/?term=group HTTP/1.1" 200 10
+[16/Dec/2020 05:35:07] "GET /admin/tag-autocomplete/?term=group3 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:09] "GET /admin/tag-autocomplete/?term=group3%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:09] "GET /admin/tag-autocomplete/?term=group3 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:12] "GET /admin/tag-autocomplete/?term=4 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:12] "GET /admin/tag-autocomplete/?term=4cst HTTP/1.1" 200 2
+[16/Dec/2020 05:35:16] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 215
+[16/Dec/2020 05:35:25] "GET /admin/documents/chooser/ HTTP/1.1" 200 12406
+[16/Dec/2020 05:35:41] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:42] "GET /admin/tag-autocomplete/?term=%20base HTTP/1.1" 200 2
+[16/Dec/2020 05:35:43] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:35:45] "GET /admin/tag-autocomplete/?term=%20base%20oil%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:35:46] "GET /admin/tag-autocomplete/?term=%20base%20oil HTTP/1.1" 200 2
+[16/Dec/2020 05:35:49] "GET /admin/tag-autocomplete/?term=gruo HTTP/1.1" 200 2
+[16/Dec/2020 05:35:50] "GET /admin/tag-autocomplete/?term=gr HTTP/1.1" 200 20
+[16/Dec/2020 05:35:51] "GET /admin/tag-autocomplete/?term=group HTTP/1.1" 200 20
+[16/Dec/2020 05:35:52] "GET /admin/tag-autocomplete/?term=group3 HTTP/1.1" 200 10
+[16/Dec/2020 05:35:57] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 215
+[16/Dec/2020 05:36:24] "GET /admin/documents/chooser/ HTTP/1.1" 200 12402
+[16/Dec/2020 05:36:39] "GET /admin/tag-autocomplete/?term=base%20oil%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:36:39] "GET /admin/tag-autocomplete/?term=base%20oil HTTP/1.1" 200 12
+[16/Dec/2020 05:36:41] "GET /admin/tag-autocomplete/?term=groupo HTTP/1.1" 200 2
+[16/Dec/2020 05:36:42] "GET /admin/tag-autocomplete/?term=group HTTP/1.1" 200 20
+[16/Dec/2020 05:36:43] "GET /admin/tag-autocomplete/?term=group%203 HTTP/1.1" 200 2
+[16/Dec/2020 05:36:43] "GET /admin/tag-autocomplete/?term=group%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:36:44] "GET /admin/tag-autocomplete/?term=group3 HTTP/1.1" 200 10
+[16/Dec/2020 05:36:47] "GET /admin/tag-autocomplete/?term=8cst HTTP/1.1" 200 2
+[16/Dec/2020 05:36:49] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 215
+[16/Dec/2020 05:37:27] "GET /admin/documents/chooser/ HTTP/1.1" 200 12389
+[16/Dec/2020 05:37:49] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 231
+[16/Dec/2020 05:38:05] "GET /admin/documents/chooser/ HTTP/1.1" 200 12412
+[16/Dec/2020 05:38:18] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 218
+[16/Dec/2020 05:38:25] "GET /admin/documents/chooser/ HTTP/1.1" 200 12422
+[16/Dec/2020 05:38:32] "GET /admin/documents/chooser/26/ HTTP/1.1" 200 218
+[16/Dec/2020 05:38:32] "GET /admin/documents/chooser/26/ HTTP/1.1" 200 218
+[16/Dec/2020 05:38:34] "GET /admin/documents/chooser/ HTTP/1.1" 200 12422
+[16/Dec/2020 05:38:36] "GET /admin/documents/edit/26/ HTTP/1.1" 200 17662
+[16/Dec/2020 05:38:47] "POST /admin/documents/edit/26/ HTTP/1.1" 302 0
+[16/Dec/2020 05:38:47] "GET /admin/documents/ HTTP/1.1" 200 29942
+[16/Dec/2020 05:39:10] "GET /admin/documents/chooser/ HTTP/1.1" 200 12420
+[16/Dec/2020 05:39:24] "GET /admin/documents/chooser/ HTTP/1.1" 200 12419
+[16/Dec/2020 05:39:41] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 218
+[16/Dec/2020 05:39:51] "GET /admin/documents/chooser/ HTTP/1.1" 200 12416
+[16/Dec/2020 05:40:08] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 218
+[16/Dec/2020 05:40:25] "POST /admin/pages/18/edit/ HTTP/1.1" 200 139041
+[16/Dec/2020 05:40:30] "GET /base-oil/ HTTP/1.1" 200 10120
+[16/Dec/2020 05:40:30] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/js/popper.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:30] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/slick.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 304 0
+[16/Dec/2020 05:40:31] "GET /static/resources/images/logo/logo.png HTTP/1.1" 304 0
+[16/Dec/2020 05:40:41] "GET / HTTP/1.1" 200 55860
+[16/Dec/2020 05:40:42] "GET /static/resources/images/logo.png HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.original.png HTTP/1.1" 200 272742
+[16/Dec/2020 05:40:42] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/drslogo.max-400x200.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 200 404714
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:42] "GET /static/resources/images/author-1.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:43] "GET /static/resources/images/author-2.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:43] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 304 0
+[16/Dec/2020 05:40:43] "GET /static/resources/images/author-3.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:40:43] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 200 2064355
+[16/Dec/2020 05:40:43] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 200 2895634
+[16/Dec/2020 05:40:47] "GET /base-oil/ HTTP/1.1" 200 10120
+[16/Dec/2020 05:42:07] "POST /admin/pages/18/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 05:42:07] "GET /admin/pages/8/ HTTP/1.1" 200 76909
+[16/Dec/2020 05:42:11] "GET /base-oil/ HTTP/1.1" 200 15283
+[16/Dec/2020 05:42:30] "GET /admin/pages/18/edit/ HTTP/1.1" 200 137022
+[16/Dec/2020 05:43:39] "GET /documents/23/GROUP-III-BASE-OIL-6-CST.pdf HTTP/1.1" 200 190082
+Not Found: /favicon.ico
+[16/Dec/2020 05:43:41] "GET /favicon.ico HTTP/1.1" 404 3238
+[16/Dec/2020 05:43:56] "GET / HTTP/1.1" 200 55860
+[16/Dec/2020 05:44:38] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 05:44:40] "GET /admin/pages/8/ HTTP/1.1" 200 76101
+[16/Dec/2020 05:44:45] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36490
+[16/Dec/2020 05:44:45] "GET /media/images/drslogo.max-165x165.jpg HTTP/1.1" 200 6943
+[16/Dec/2020 05:44:48] "GET /admin/images/15/ HTTP/1.1" 200 20851
+[16/Dec/2020 05:44:49] "GET /static/wagtailimages/css/vendor/jquery.Jcrop.min.css?v=3e1fe316 HTTP/1.1" 200 1993
+[16/Dec/2020 05:44:49] "GET /static/wagtailimages/css/focal-point-chooser.css?v=3e1fe316 HTTP/1.1" 200 426
+[16/Dec/2020 05:44:49] "GET /static/wagtailimages/js/focal-point-chooser.js?v=3e1fe316 HTTP/1.1" 200 3120
+[16/Dec/2020 05:44:49] "GET /static/wagtailadmin/js/vendor/jquery.ba-throttle-debounce.min.js?v=3e1fe316 HTTP/1.1" 200 731
+[16/Dec/2020 05:44:49] "GET /static/wagtailimages/js/vendor/jquery.Jcrop.min.js?v=3e1fe316 HTTP/1.1" 200 15898
+[16/Dec/2020 05:44:49] "GET /media/images/drslogo.max-800x600.jpg HTTP/1.1" 200 27459
+[16/Dec/2020 05:44:49] "GET /static/wagtailimages/css/vendor/Jcrop.gif HTTP/1.1" 200 329
+[16/Dec/2020 05:45:22] "POST /admin/images/15/ HTTP/1.1" 302 0
+[16/Dec/2020 05:45:22] "GET /admin/images/ HTTP/1.1" 200 27110
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.max-165x165.jpg HTTP/1.1" 200 4890
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_10_-_BITUMEN.max-165x165.jpg HTTP/1.1" 200 6744
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_8_-_BASE_OIL_jVZQwuN.max-165x165.jpg HTTP/1.1" 200 3210
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.max-165x165.jpg HTTP/1.1" 200 10786
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.max-165x165.jpg HTTP/1.1" 200 4525
+[16/Dec/2020 05:45:22] "GET /media/images/drs_logo.max-165x165.png HTTP/1.1" 200 26725
+[16/Dec/2020 05:45:22] "GET /media/images/logo_GXLamPB.max-165x165.png HTTP/1.1" 200 4892
+[16/Dec/2020 05:45:22] "GET /media/images/IMAEG_6.max-165x165.jpg HTTP/1.1" 200 5436
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_5_.max-165x165.jpg HTTP/1.1" 200 5388
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.max-165x165.jpg HTTP/1.1" 200 4091
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.max-165x165.jpg HTTP/1.1" 200 5667
+[16/Dec/2020 05:45:22] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.max-165x165.png HTTP/1.1" 200 16096
+[16/Dec/2020 05:45:23] "GET /media/images/IMAGE_1_-_REFINERY_zNQqizq.max-165x165.png HTTP/1.1" 200 8350
+[16/Dec/2020 05:45:30] "GET / HTTP/1.1" 200 55860
+[16/Dec/2020 05:45:32] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 05:45:36] "GET /admin/images/15/ HTTP/1.1" 200 20931
+[16/Dec/2020 05:45:36] "GET /media/images/drslogo.max-800x600.jpg HTTP/1.1" 304 0
+[16/Dec/2020 05:47:07] "GET /admin/images/chooser/ HTTP/1.1" 200 11328
+[16/Dec/2020 05:48:26] "GET /admin/tag-autocomplete/?term=logo%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:48:26] "GET /admin/tag-autocomplete/?term=logo HTTP/1.1" 200 2
+[16/Dec/2020 05:48:28] "GET /admin/tag-autocomplete/?term=dynamo%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:48:30] "GET /admin/tag-autocomplete/?term=logo HTTP/1.1" 200 2
+[16/Dec/2020 05:48:33] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 227
+[16/Dec/2020 05:48:33] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 200 29800
+[16/Dec/2020 05:48:55] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 05:48:55] "GET /admin/pages/8/ HTTP/1.1" 200 76899
+[16/Dec/2020 05:48:59] "GET / HTTP/1.1" 200 55892
+[16/Dec/2020 05:48:59] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-400x200.png HTTP/1.1" 200 45079
+[16/Dec/2020 05:49:01] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 05:49:14] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 05:49:15] "GET /admin/pages/8/ HTTP/1.1" 200 76089
+[16/Dec/2020 05:49:22] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36520
+[16/Dec/2020 05:49:23] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:49:26] "GET /admin/images/16/ HTTP/1.1" 200 20988
+[16/Dec/2020 05:49:27] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-800x600.png HTTP/1.1" 200 205962
+[16/Dec/2020 05:49:59] "POST /admin/images/16/ HTTP/1.1" 302 0
+[16/Dec/2020 05:50:00] "GET /admin/images/ HTTP/1.1" 200 28713
+[16/Dec/2020 05:50:00] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:50:02] "GET /admin/images/16/ HTTP/1.1" 200 21068
+[16/Dec/2020 05:50:02] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-800x600.png HTTP/1.1" 304 0
+[16/Dec/2020 05:50:12] "GET / HTTP/1.1" 200 55892
+[16/Dec/2020 05:50:12] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 05:50:13] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 05:51:00] "GET /admin/images/chooser/ HTTP/1.1" 200 11710
+[16/Dec/2020 05:51:33] "GET /admin/tag-autocomplete/?term=%20 HTTP/1.1" 200 2
+[16/Dec/2020 05:51:34] "GET /admin/tag-autocomplete/?term=%20dynamo%20logo HTTP/1.1" 200 2
+[16/Dec/2020 05:51:36] "GET /admin/tag-autocomplete/?term=logoo HTTP/1.1" 200 2
+[16/Dec/2020 05:51:36] "GET /admin/tag-autocomplete/?term=logo HTTP/1.1" 200 8
+[16/Dec/2020 05:51:37] "GET /admin/tag-autocomplete/?term=logo. HTTP/1.1" 200 2
+[16/Dec/2020 05:51:37] "GET /admin/tag-autocomplete/?term=logo HTTP/1.1" 200 8
+[16/Dec/2020 05:51:40] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 228
+[16/Dec/2020 05:51:40] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-165x165.png HTTP/1.1" 200 17376
+[16/Dec/2020 05:51:44] "POST /admin/pages/16/edit/preview/ HTTP/1.1" 200 18
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /marketing/
+[16/Dec/2020 05:51:45] "GET /admin/pages/16/edit/preview/ HTTP/1.1" 400 57638
+[16/Dec/2020 05:51:54] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 05:51:55] "GET /admin/pages/8/ HTTP/1.1" 200 76899
+[16/Dec/2020 05:52:03] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36521
+[16/Dec/2020 05:52:03] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:52:05] "GET /admin/images/17/ HTTP/1.1" 200 21013
+[16/Dec/2020 05:52:05] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-800x600.png HTTP/1.1" 200 87382
+[16/Dec/2020 05:52:22] "GET / HTTP/1.1" 200 55893
+[16/Dec/2020 05:52:22] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-400x200.png HTTP/1.1" 200 24000
+[16/Dec/2020 05:52:24] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 05:52:35] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36521
+[16/Dec/2020 05:52:36] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:52:38] "GET /admin/images/17/ HTTP/1.1" 200 21013
+[16/Dec/2020 05:52:39] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-800x600.png HTTP/1.1" 304 0
+[16/Dec/2020 05:53:48] "GET /admin/images/17/delete/ HTTP/1.1" 200 15393
+[16/Dec/2020 05:53:48] "GET /media/images/WhatsApp_Image_2020-12-15_at_14.15.56.max-800x600.png HTTP/1.1" 304 0
+[16/Dec/2020 05:53:52] "POST /admin/images/17/delete/ HTTP/1.1" 302 0
+[16/Dec/2020 05:53:52] "GET /admin/images/ HTTP/1.1" 200 28555
+[16/Dec/2020 05:53:52] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:53:55] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 05:53:57] "GET /admin/pages/8/ HTTP/1.1" 200 76090
+[16/Dec/2020 05:53:59] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36334
+[16/Dec/2020 05:54:01] "GET /admin/images/chooser/ HTTP/1.1" 200 11710
+[16/Dec/2020 05:54:10] "GET /admin/images/chooser/16/ HTTP/1.1" 200 227
+[16/Dec/2020 05:54:13] "POST /admin/pages/16/edit/preview/ HTTP/1.1" 200 18
+Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /marketing/
+[16/Dec/2020 05:54:14] "GET /admin/pages/16/edit/preview/ HTTP/1.1" 400 57638
+[16/Dec/2020 05:54:19] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 05:54:19] "GET /admin/pages/8/ HTTP/1.1" 200 76900
+Internal Server Error: /marketing/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 202, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 65, in resolve_template
+    return get_template(template, using=self.using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home/what_we_do_page.html
+[16/Dec/2020 05:54:21] "GET /marketing/ HTTP/1.1" 500 79191
+[16/Dec/2020 05:54:25] "GET / HTTP/1.1" 200 55892
+[16/Dec/2020 05:54:25] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 05:54:27] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 05:58:45] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36520
+[16/Dec/2020 05:58:46] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 05:58:48] "GET /admin/images/chooser/ HTTP/1.1" 200 11710
+[16/Dec/2020 05:59:10] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 220
+[16/Dec/2020 05:59:10] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-165x165.png HTTP/1.1" 200 21166
+[16/Dec/2020 05:59:15] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 05:59:15] "GET /admin/pages/8/ HTTP/1.1" 200 76900
+Internal Server Error: /marketing/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 202, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 65, in resolve_template
+    return get_template(template, using=self.using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home/what_we_do_page.html
+[16/Dec/2020 05:59:18] "GET /marketing/ HTTP/1.1" 500 79191
+[16/Dec/2020 05:59:25] "GET / HTTP/1.1" 200 55885
+[16/Dec/2020 05:59:26] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 200 52373
+[16/Dec/2020 06:00:14] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:00:16] "GET /admin/pages/8/ HTTP/1.1" 200 76089
+[16/Dec/2020 06:00:23] "GET /admin/pages/15/add_subpage/ HTTP/1.1" 200 17953
+[16/Dec/2020 06:00:34] "GET /admin/pages/8/ HTTP/1.1" 200 76089
+[16/Dec/2020 06:00:37] "GET /admin/pages/15/edit/ HTTP/1.1" 200 36435
+[16/Dec/2020 06:03:40] "POST /admin/pages/15/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:03:41] "GET /admin/pages/8/ HTTP/1.1" 200 76902
+[16/Dec/2020 06:03:45] "GET / HTTP/1.1" 200 55903
+[16/Dec/2020 06:03:46] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:03:47] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:04:19] "GET /admin/pages/15/edit/ HTTP/1.1" 200 36453
+[16/Dec/2020 06:06:53] "POST /admin/pages/15/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:06:54] "GET /admin/pages/8/ HTTP/1.1" 200 76902
+[16/Dec/2020 06:06:57] "GET / HTTP/1.1" 200 55952
+[16/Dec/2020 06:06:57] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:07:00] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:08:33] "GET /admin/pages/15/edit/ HTTP/1.1" 200 36502
+[16/Dec/2020 06:08:35] "GET /static/wagtailadmin/images/favicon.ico?v=3e1fe316 HTTP/1.1" 200 2666
+[16/Dec/2020 06:09:07] "POST /admin/pages/15/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:09:08] "GET /admin/pages/8/ HTTP/1.1" 200 76902
+[16/Dec/2020 06:09:12] "GET / HTTP/1.1" 200 55956
+[16/Dec/2020 06:09:13] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:09:14] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:10:04] "GET /admin/pages/24/edit/ HTTP/1.1" 200 49875
+[16/Dec/2020 06:10:42] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:10:43] "GET /admin/pages/ HTTP/1.1" 200 22275
+[16/Dec/2020 06:10:43] "GET /admin/pages/8/ HTTP/1.1" 200 76084
+[16/Dec/2020 06:11:03] "GET /lubricants/ HTTP/1.1" 200 9681
+[16/Dec/2020 06:11:14] "GET /admin/pages/24/edit/ HTTP/1.1" 200 49875
+[16/Dec/2020 06:11:26] "GET /admin/choose-page/?page_type=wagtailcore.page&allow_external_link=true&allow_email_link=true&allow_phone_link=true&allow_anchor_link=true&link_text= HTTP/1.1" 200 5858
+[16/Dec/2020 06:11:29] "GET /admin/choose-external-link/?page_type=wagtailcore.page&allow_external_link=true&allow_email_link=true&allow_phone_link=true&allow_anchor_link=true&link_text=&parent_page_id=1 HTTP/1.1" 200 3217
+[16/Dec/2020 06:11:46] "GET /admin/documents/edit/7/ HTTP/1.1" 200 17593
+[16/Dec/2020 06:11:50] "GET /admin/documents/delete/7/ HTTP/1.1" 200 15180
+[16/Dec/2020 06:11:52] "POST /admin/documents/delete/7/ HTTP/1.1" 302 0
+[16/Dec/2020 06:11:52] "GET /admin/documents/ HTTP/1.1" 200 29811
+[16/Dec/2020 06:11:55] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:11:56] "GET /admin/pages/8/ HTTP/1.1" 200 76085
+----------------------------------------
+Exception happened during processing of request from ('157.38.29.209', 63579)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 06:12:00] "GET /admin/pages/24/edit/ HTTP/1.1" 200 49840
+----------------------------------------
+Exception happened during processing of request from ('157.38.29.209', 63600)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 06:12:27] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:12:29] "GET /admin/pages/8/ HTTP/1.1" 200 76085
+[16/Dec/2020 06:12:40] "GET /admin/pages/24/add_subpage/ HTTP/1.1" 200 17947
+[16/Dec/2020 06:12:45] "GET /admin/pages/8/ HTTP/1.1" 200 76085
+[16/Dec/2020 06:13:37] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:13:39] "GET /admin/pages/8/ HTTP/1.1" 200 76085
+[16/Dec/2020 06:13:45] "GET /admin/pages/14/edit/ HTTP/1.1" 200 36456
+[16/Dec/2020 06:14:02] "POST /admin/pages/14/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:14:03] "GET /admin/pages/8/ HTTP/1.1" 200 76883
+[16/Dec/2020 06:14:05] "GET / HTTP/1.1" 200 55948
+[16/Dec/2020 06:14:05] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:14:07] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:14:14] "GET /admin/pages/14/edit/ HTTP/1.1" 200 36445
+[16/Dec/2020 06:17:22] "POST /admin/pages/14/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:17:22] "GET /admin/pages/8/ HTTP/1.1" 200 76882
+[16/Dec/2020 06:17:27] "GET / HTTP/1.1" 200 55981
+[16/Dec/2020 06:17:28] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:17:30] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:17:47] "GET /admin/pages/14/edit/ HTTP/1.1" 200 36477
+[16/Dec/2020 06:18:30] "POST /admin/pages/14/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:18:31] "GET /admin/pages/8/ HTTP/1.1" 200 76882
+[16/Dec/2020 06:18:35] "GET / HTTP/1.1" 200 55999
+[16/Dec/2020 06:18:37] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:18:50] "GET /admin/pages/14/edit/ HTTP/1.1" 200 36496
+[16/Dec/2020 06:18:57] "POST /admin/pages/14/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:18:58] "GET /admin/pages/8/ HTTP/1.1" 200 76882
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 47474)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 06:20:49] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36506
+[16/Dec/2020 06:20:50] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 06:22:39] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:22:40] "GET /admin/pages/8/ HTTP/1.1" 200 76873
+[16/Dec/2020 06:22:44] "GET / HTTP/1.1" 200 55991
+[16/Dec/2020 06:22:44] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:22:46] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:22:56] "GET /admin/pages/16/edit/ HTTP/1.1" 200 36517
+[16/Dec/2020 06:26:53] "POST /admin/pages/16/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:26:54] "GET /admin/pages/8/ HTTP/1.1" 200 76870
+[16/Dec/2020 06:26:57] "GET / HTTP/1.1" 200 55981
+[16/Dec/2020 06:26:57] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:26:59] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:27:38] "GET /admin/pages/23/edit/ HTTP/1.1" 200 49940
+[16/Dec/2020 06:27:45] "GET /admin/images/14/ HTTP/1.1" 200 20954
+[16/Dec/2020 06:27:46] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.max-800x600.jpg HTTP/1.1" 200 46538
+[16/Dec/2020 06:28:14] "POST /admin/images/14/ HTTP/1.1" 302 0
+[16/Dec/2020 06:28:14] "GET /admin/images/ HTTP/1.1" 200 29352
+[16/Dec/2020 06:28:14] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 06:28:14] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 06:28:19] "GET / HTTP/1.1" 200 55981
+[16/Dec/2020 06:28:23] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:29:35] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:29:36] "GET /admin/pages/8/ HTTP/1.1" 200 76061
+[16/Dec/2020 06:29:45] "GET /admin/pages/13/edit/ HTTP/1.1" 200 37554
+[16/Dec/2020 06:30:03] "POST /admin/pages/13/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:30:03] "GET /admin/pages/8/ HTTP/1.1" 200 76888
+[16/Dec/2020 06:30:07] "GET / HTTP/1.1" 200 55967
+[16/Dec/2020 06:30:07] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:30:09] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:30:24] "GET /admin/pages/13/edit/ HTTP/1.1" 200 37535
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 43860)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 40801)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 06:38:12] "POST /admin/pages/13/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 06:38:13] "GET /admin/pages/8/ HTTP/1.1" 200 76893
+[16/Dec/2020 06:38:22] "GET / HTTP/1.1" 200 56022
+[16/Dec/2020 06:38:23] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 06:38:25] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 06:39:34] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 06:39:35] "GET /admin/pages/8/ HTTP/1.1" 200 76066
+[16/Dec/2020 06:39:41] "GET /admin/pages/10/edit/ HTTP/1.1" 200 34405
+[16/Dec/2020 06:39:50] "GET /admin/pages/8/ HTTP/1.1" 200 76066
+[16/Dec/2020 06:40:15] "GET /admin/pages/22/edit/ HTTP/1.1" 200 49970
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 38977)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 48442)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 07:22:24] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 07:22:26] "GET /admin/api/main/pages/?translation_of=8&limit=20&fields=parent&has_children=1 HTTP/1.1" 200 84
+[16/Dec/2020 07:22:26] "GET /admin/api/main/pages/?child_of=8&for_explorer=1&fields=parent HTTP/1.1" 200 17807
+[16/Dec/2020 07:22:31] "GET /admin/pages/9/ HTTP/1.1" 200 21794
+[16/Dec/2020 07:22:36] "GET /admin/pages/8/ HTTP/1.1" 200 76093
+[16/Dec/2020 07:25:09] "GET /admin/pages/9/edit/ HTTP/1.1" 200 34427
+[16/Dec/2020 07:26:32] "GET /admin/images/chooser/ HTTP/1.1" 200 11736
+[16/Dec/2020 07:26:32] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:26:32] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:26:32] "GET /media/images/IMAGE_8_-_BASE_OIL.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:26:51] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 209
+[16/Dec/2020 07:26:51] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-165x165.png HTTP/1.1" 200 8175
+[16/Dec/2020 07:26:55] "POST /admin/pages/9/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 07:26:55] "GET /admin/pages/8/ HTTP/1.1" 200 76870
+[16/Dec/2020 07:27:00] "GET / HTTP/1.1" 200 56008
+[16/Dec/2020 07:27:01] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 07:27:01] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.original.png HTTP/1.1" 200 268420
+[16/Dec/2020 07:27:03] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 07:27:16] "GET /admin/pages/9/edit/ HTTP/1.1" 200 34400
+[16/Dec/2020 07:27:16] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:27:18] "GET /admin/images/19/ HTTP/1.1" 200 20898
+[16/Dec/2020 07:27:19] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-800x600.png HTTP/1.1" 200 81062
+[16/Dec/2020 07:27:57] "POST /admin/images/19/ HTTP/1.1" 302 0
+[16/Dec/2020 07:27:57] "GET /admin/images/ HTTP/1.1" 200 29953
+[16/Dec/2020 07:27:58] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:28:00] "GET / HTTP/1.1" 200 56008
+[16/Dec/2020 07:28:00] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.original.png HTTP/1.1" 304 0
+[16/Dec/2020 07:28:03] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 07:31:33] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 07:31:34] "GET /admin/pages/8/ HTTP/1.1" 200 76093
+[16/Dec/2020 07:31:45] "GET /admin/pages/9/edit/ HTTP/1.1" 200 34400
+[16/Dec/2020 07:31:46] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:31:47] "GET /admin/images/chooser/ HTTP/1.1" 200 11740
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 40227)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 07:32:08] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 210
+[16/Dec/2020 07:32:09] "GET /media/images/IMAGE_1_-_REFINERY_c71Jvom.max-165x165.png HTTP/1.1" 200 7104
+[16/Dec/2020 07:32:13] "POST /admin/pages/9/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 07:32:13] "GET /admin/pages/8/ HTTP/1.1" 200 76896
+[16/Dec/2020 07:32:20] "GET / HTTP/1.1" 200 56009
+[16/Dec/2020 07:32:20] "GET /media/images/IMAGE_1_-_REFINERY_c71Jvom.original.png HTTP/1.1" 200 240650
+[16/Dec/2020 07:32:24] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+----------------------------------------
+Exception happened during processing of request from ('157.38.94.9', 36121)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 07:57:50] "GET /admin/pages/9/edit/ HTTP/1.1" 200 34402
+[16/Dec/2020 07:57:51] "GET /media/images/IMAGE_1_-_REFINERY_c71Jvom.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /admin/images/chooser/ HTTP/1.1" 200 11750
+[16/Dec/2020 07:57:52] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/IMAGE_1_-_REFINERY_SEhi28v.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/Screenshot_2020-12-16_at_11.18.01_AM.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/drslogo.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:52] "GET /media/images/IMAGE_10_-_BITUMEN.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:53] "GET /media/images/IMAGE_8_-_BASE_OIL_jVZQwuN.max-165x165.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:57:53] "GET /media/images/drs_logo.max-165x165.png HTTP/1.1" 304 0
+[16/Dec/2020 07:58:08] "POST /admin/images/chooser/upload/ HTTP/1.1" 200 199
+[16/Dec/2020 07:58:08] "GET /media/images/Refinery_Image.max-165x165.jpg HTTP/1.1" 200 3361
+[16/Dec/2020 07:58:13] "POST /admin/pages/9/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 07:58:13] "GET /admin/pages/8/ HTTP/1.1" 200 76911
+[16/Dec/2020 07:58:17] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 07:58:17] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:17] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:17] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:17] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:17] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/popper.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/slick.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:18] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:19] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 200 192540
+[16/Dec/2020 07:58:20] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 304 0
+[16/Dec/2020 07:58:20] "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:20] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 304 0
+[16/Dec/2020 07:58:20] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /static/resources/images/author-1.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /static/resources/images/logo/logo.png HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /static/resources/images/author-3.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:21] "GET /static/resources/images/author-2.jpg HTTP/1.1" 304 0
+[16/Dec/2020 07:58:22] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 304 0
+[16/Dec/2020 07:58:22] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 304 0
+[16/Dec/2020 07:58:23] "GET /static/resources/images/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 07:59:04] "GET /fuel-oil/ HTTP/1.1" 200 10097
+[16/Dec/2020 07:59:07] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 07:59:08] "GET /admin/pages/8/ HTTP/1.1" 200 76108
+[16/Dec/2020 07:59:13] "GET /admin/pages/20/edit/ HTTP/1.1" 200 56584
+[16/Dec/2020 08:00:13] "GET /admin/documents/chooser/ HTTP/1.1" 200 12578
+[16/Dec/2020 08:00:40] "GET /admin/tag-autocomplete/?term=Furnace%20oil HTTP/1.1" 200 2
+[16/Dec/2020 08:00:45] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 202
+[16/Dec/2020 08:01:09] "POST /admin/pages/20/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 08:01:10] "GET /admin/pages/8/ HTTP/1.1" 200 76904
+[16/Dec/2020 08:01:16] "GET /fuel-oil/ HTTP/1.1" 200 10513
+[16/Dec/2020 08:01:17] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 08:01:33] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 08:01:33] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 08:01:58] "GET /bitumen/ HTTP/1.1" 200 9678
+[16/Dec/2020 08:02:06] "GET /admin/pages/21/edit/ HTTP/1.1" 200 49885
+[16/Dec/2020 08:02:49] "GET /admin/documents/chooser/ HTTP/1.1" 200 12529
+[16/Dec/2020 08:03:13] "GET /admin/tag-autocomplete/?term=bitumen HTTP/1.1" 200 2
+[16/Dec/2020 08:03:18] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 192
+[16/Dec/2020 08:03:23] "POST /admin/pages/21/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 08:03:24] "GET /admin/pages/8/ HTTP/1.1" 200 76890
+[16/Dec/2020 08:03:26] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 08:03:27] "GET /admin/pages/8/ HTTP/1.1" 200 76084
+[16/Dec/2020 08:03:33] "GET /bitumen/ HTTP/1.1" 200 10105
+[16/Dec/2020 08:03:35] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 08:03:38] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 08:03:38] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 08:03:51] "GET /rubber-process-oil/ HTTP/1.1" 200 9688
+[16/Dec/2020 08:04:01] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 08:04:02] "GET /admin/pages/8/ HTTP/1.1" 200 76084
+[16/Dec/2020 08:04:05] "GET /admin/pages/22/edit/ HTTP/1.1" 200 49970
+[16/Dec/2020 08:04:46] "GET /admin/documents/chooser/ HTTP/1.1" 200 12501
+[16/Dec/2020 08:05:07] "GET /admin/tag-autocomplete/?term=rpo HTTP/1.1" 200 2
+[16/Dec/2020 08:05:08] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 213
+[16/Dec/2020 08:05:52] "GET /admin/documents/chooser/ HTTP/1.1" 200 12497
+[16/Dec/2020 08:06:10] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 208
+[16/Dec/2020 08:06:19] "POST /admin/pages/22/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 08:06:20] "GET /admin/pages/8/ HTTP/1.1" 200 76900
+[16/Dec/2020 08:06:24] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 08:06:24] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 08:06:33] "GET /solvents/ HTTP/1.1" 200 9712
+[16/Dec/2020 08:06:45] "GET /admin/pages/23/edit/ HTTP/1.1" 200 49940
+[16/Dec/2020 08:07:15] "GET /admin/documents/chooser/ HTTP/1.1" 200 12474
+[16/Dec/2020 08:07:40] "GET /admin/tag-autocomplete/?term=white%20sp HTTP/1.1" 200 2
+[16/Dec/2020 08:07:41] "GET /admin/tag-autocomplete/?term=white%20spirit HTTP/1.1" 200 2
+[16/Dec/2020 08:07:47] "POST /admin/documents/chooser/upload/ HTTP/1.1" 200 228
+[16/Dec/2020 08:07:54] "POST /admin/pages/23/edit/ HTTP/1.1" 302 0
+[16/Dec/2020 08:07:55] "GET /admin/pages/8/ HTTP/1.1" 200 76867
+[16/Dec/2020 08:07:59] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 08:08:00] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 08:08:05] "GET /solvents/ HTTP/1.1" 200 10151
+[16/Dec/2020 08:08:16] "GET /lubricants/ HTTP/1.1" 200 9656
+[16/Dec/2020 08:08:28] "GET /admin/pages/24/edit/ HTTP/1.1" 200 49840
+[16/Dec/2020 08:08:58] "GET /admin/choose-page/?page_type=wagtailcore.page&allow_external_link=true&allow_email_link=true&allow_phone_link=true&allow_anchor_link=true&link_text= HTTP/1.1" 200 5858
+[16/Dec/2020 08:09:02] "GET /admin/choose-external-link/?page_type=wagtailcore.page&allow_external_link=true&allow_email_link=true&allow_phone_link=true&allow_anchor_link=true&link_text=&parent_page_id=1 HTTP/1.1" 200 3217
+[16/Dec/2020 08:09:05] "POST /admin/choose-external-link/?page_type=wagtailcore.page&allow_external_link=true&allow_email_link=true&allow_phone_link=true&allow_anchor_link=true&link_text=&parent_page_id=1 HTTP/1.1" 200 171
+[16/Dec/2020 08:09:13] "POST /admin/pages/24/edit/ HTTP/1.1" 200 51184
+[16/Dec/2020 08:09:28] "GET /admin/documents/chooser/ HTTP/1.1" 200 12472
+[16/Dec/2020 08:10:22] "POST /admin/pages/24/edit/ HTTP/1.1" 200 43912
+[16/Dec/2020 08:10:35] "GET /admin/api/main/pages/?child_of=1&for_explorer=1&fields=parent HTTP/1.1" 200 1516
+[16/Dec/2020 08:10:38] "GET /admin/pages/8/ HTTP/1.1" 200 76060
+[16/Dec/2020 08:10:40] "GET /lubricants/ HTTP/1.1" 200 9656
+[16/Dec/2020 08:10:42] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 08:10:50] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 08:10:50] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 304 0
+[16/Dec/2020 08:10:50] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 304 0
+[16/Dec/2020 08:11:34] "GET /bitumen/ HTTP/1.1" 200 10105
+[16/Dec/2020 08:11:40] "GET /documents/30/BITUMEN-60-70.pdf HTTP/1.1" 200 183187
+[16/Dec/2020 08:11:41] "GET /documents/30/BITUMEN-60-70.pdf HTTP/1.1" 200 183187
+[16/Dec/2020 08:11:53] "GET /admin/logout/ HTTP/1.1" 302 0
+[16/Dec/2020 08:11:53] "GET /admin/login/ HTTP/1.1" 200 8771
+[16/Dec/2020 09:26:13] code 400, message Bad request version ('À\x14À')
+[16/Dec/2020 09:26:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Dec/2020 10:05:16] "GET / HTTP/1.1" 200 55997
+Not Found: /favicon.ico
+[16/Dec/2020 10:05:21] "GET /favicon.ico HTTP/1.1" 404 3238
+Not Found: /favicon.ico
+[16/Dec/2020 10:05:26] "GET /favicon.ico HTTP/1.1" 404 3238
+[16/Dec/2020 10:39:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Dec/2020 10:39:01] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Dec/2020 11:10:57] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 11:10:57] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/css/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/css/LineIcons.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/css/default.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/resources/css/style.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 304 0
+[16/Dec/2020 11:10:57] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[16/Dec/2020 11:10:57] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 200 8599
+[16/Dec/2020 11:10:57] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 21004
+[16/Dec/2020 11:10:57] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 58072
+[16/Dec/2020 11:10:57] "GET /static/assets/js/slick.min.js HTTP/1.1" 200 42863
+[16/Dec/2020 11:10:57] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[16/Dec/2020 11:10:58] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 200 1201
+[16/Dec/2020 11:10:58] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 200 5594
+[16/Dec/2020 11:10:58] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[16/Dec/2020 11:10:58] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 200 655
+[16/Dec/2020 11:10:58] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 200 5564
+[16/Dec/2020 11:10:58] "GET /static/assets/js/main.js HTTP/1.1" 200 5013
+[16/Dec/2020 11:10:58] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 200 42863
+[16/Dec/2020 11:10:58] "GET /static/resources/images/logo.png HTTP/1.1" 304 0
+[16/Dec/2020 11:10:58] "GET /media/images/Refinery_Image.original.jpg HTTP/1.1" 200 192540
+[16/Dec/2020 11:10:58] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 200 51608
+[16/Dec/2020 11:10:58] "GET /media/images/IMAGE_2_-_WORLD_MAP_znCQDLJ.original.png HTTP/1.1" 200 404714
+[16/Dec/2020 11:10:58] "GET /media/images/IMAEG_6.max-400x200.jpg HTTP/1.1" 200 13602
+[16/Dec/2020 11:10:58] "GET /media/images/IMAGE_5_.max-400x200.jpg HTTP/1.1" 200 20769
+[16/Dec/2020 11:10:58] "GET /media/images/Screenshot_2020-12-16_at_11.28.32_AM.max-400x200.png HTTP/1.1" 200 52373
+[16/Dec/2020 11:10:59] "GET /media/images/IMAGE_8_-_BASE_OIL.width-400.height-280.jpg HTTP/1.1" 200 9955
+[16/Dec/2020 11:10:59] "GET /media/images/IMAGE_9_-_FUEL_OIL_2.width-400.height-280.jpg HTTP/1.1" 200 15984
+[16/Dec/2020 11:10:59] "GET /media/images/IMAGE_10_-_BITUMEN.width-400.height-280.jpg HTTP/1.1" 200 27573
+[16/Dec/2020 11:10:59] "GET /media/images/IMAGE_11_-_GREEN_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 25130
+[16/Dec/2020 11:11:00] "GET /media/images/drslogo.width-400.height-280.jpg HTTP/1.1" 200 13980
+[16/Dec/2020 11:11:00] "GET /media/images/IMAGE_12_-_BLUE_DRUMS.width-400.height-280.jpg HTTP/1.1" 200 16009
+[16/Dec/2020 11:11:00] "GET /static/resources/images/author-1.jpg HTTP/1.1" 200 14120
+[16/Dec/2020 11:11:00] "GET /static/resources/images/author-2.jpg HTTP/1.1" 200 12891
+[16/Dec/2020 11:11:00] "GET /media/images/IMAGE_4_-_SUSTAINABLE_ENERGY_W5sepmt.original.jpg HTTP/1.1" 200 2064355
+[16/Dec/2020 11:11:00] "GET /media/images/IMAGE_3_-_SHIPPING_AND_LOGISTICS_MV3sjuM.original.jpg HTTP/1.1" 200 2895634
+[16/Dec/2020 11:11:00] "GET /static/resources/images/author-3.jpg HTTP/1.1" 200 14459
+[16/Dec/2020 11:11:00] "GET /static/vendors/slick/slick/ajax-loader.gif HTTP/1.1" 200 4178
+[16/Dec/2020 11:11:00] "GET /static/resources/images/logo/logo.png HTTP/1.1" 200 133392
+[16/Dec/2020 11:11:18] "GET /base-oil/ HTTP/1.1" 200 15283
+[16/Dec/2020 11:11:28] "GET /documents/21/GROUP-II-BASE-OIL-N-500.pdf HTTP/1.1" 200 183788
+Not Found: /favicon.ico
+[16/Dec/2020 11:11:30] "GET /favicon.ico HTTP/1.1" 404 3238
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.54', 57136)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 16:20:28] "GET / HTTP/1.1" 200 55997
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.54', 57466)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 16:20:28] "GET / HTTP/1.1" 200 55997
+Invalid HTTP_HOST header: 'ip-172-31-33-186.ap-south-1.compute.internal:8000'. You may need to add 'ip-172-31-33-186.ap-south-1.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /
+[16/Dec/2020 18:17:29] "HEAD / HTTP/1.0" 400 63024
+Not Found: /system_api.php
+[16/Dec/2020 18:17:29] "GET /system_api.php HTTP/1.1" 404 3247
+Not Found: /c/version.js
+[16/Dec/2020 18:17:30] "GET /c/version.js HTTP/1.1" 404 3241
+Not Found: /streaming/clients_live.php
+[16/Dec/2020 18:17:31] "GET /streaming/clients_live.php HTTP/1.1" 404 3283
+Not Found: /stalker_portal/c/version.js
+[16/Dec/2020 18:17:31] "GET /stalker_portal/c/version.js HTTP/1.1" 404 3286
+Not Found: /client_area/
+[16/Dec/2020 18:17:32] "GET /client_area/ HTTP/1.1" 404 1709
+Not Found: /stalker_portal/c/
+[16/Dec/2020 18:17:33] "GET /stalker_portal/c/ HTTP/1.1" 404 1719
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.55', 41350)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 20:29:17] "GET / HTTP/1.1" 200 55997
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.55', 38206)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[16/Dec/2020 20:29:18] "GET / HTTP/1.1" 200 55997
+[16/Dec/2020 21:49:57] "GET / HTTP/1.1" 200 55997
+[17/Dec/2020 00:56:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Dec/2020 00:56:58] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Dec/2020 00:57:09] code 400, message Bad request version ('À\x14À')
+[17/Dec/2020 00:57:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Dec/2020 02:12:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Dec/2020 02:12:52] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'bubblestreetq8.com'. You may need to add 'bubblestreetq8.com' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Dec/2020 04:04:25] "GET / HTTP/1.1" 400 63059
+[17/Dec/2020 04:46:34] code 400, message Bad request version ('À\x14À')
+[17/Dec/2020 04:46:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'ip-172-31-33-186.ap-south-1.compute.internal:8000'. You may need to add 'ip-172-31-33-186.ap-south-1.compute.internal' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Dec/2020 05:32:30] "GET / HTTP/1.0" 400 63018
+[17/Dec/2020 05:32:32] "GET / HTTP/1.1" 200 55997
+[17/Dec/2020 05:32:32] "GET /static/assets/css/magnific-popup.css HTTP/1.1" 200 6951
+[17/Dec/2020 05:32:33] "GET /static/assets/css/slick.css HTTP/1.1" 200 1776
+[17/Dec/2020 05:32:33] "GET /static/assets/css/LineIcons.css HTTP/1.1" 200 28218
+[17/Dec/2020 05:32:33] "GET /static/assets/css/default.css HTTP/1.1" 200 10372
+[17/Dec/2020 05:32:33] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 155758
+[17/Dec/2020 05:32:33] "GET /static/assets/css/style.css HTTP/1.1" 200 111169
+[17/Dec/2020 05:32:33] "GET /static/resources/css/style.css HTTP/1.1" 200 4471
+[17/Dec/2020 05:32:33] "GET /static/vendors/slick/slick/slick.css HTTP/1.1" 200 1776
+[17/Dec/2020 05:32:33] "GET /static/vendors/slick/slick/slick-theme.css HTTP/1.1" 200 3145
+[17/Dec/2020 05:32:33] "GET /static/assets/js/vendor/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[17/Dec/2020 05:32:33] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 21004
+[17/Dec/2020 05:32:33] "GET /static/assets/js/vendor/modernizr-3.7.1.min.js HTTP/1.1" 200 8599
+[17/Dec/2020 05:32:33] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 58072
+[17/Dec/2020 05:32:33] "GET /static/assets/js/slick.min.js HTTP/1.1" 200 42863
+[17/Dec/2020 05:32:33] "GET /static/assets/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+[17/Dec/2020 05:32:33] "GET /static/assets/js/ajax-contact.js HTTP/1.1" 200 1201
+[17/Dec/2020 05:32:33] "GET /static/assets/js/imagesloaded.pkgd.min.js HTTP/1.1" 200 5594
+[17/Dec/2020 05:32:33] "GET /static/assets/js/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[17/Dec/2020 05:32:33] "GET /static/assets/js/jquery.easing.min.js HTTP/1.1" 200 5564
+[17/Dec/2020 05:32:33] "GET /static/assets/js/main.js HTTP/1.1" 200 5013
+[17/Dec/2020 05:32:33] "GET /static/assets/js/scrolling-nav.js HTTP/1.1" 200 655
+[17/Dec/2020 05:32:33] "GET /static/vendors/slick/slick/slick.min.js HTTP/1.1" 200 42863
+[17/Dec/2020 05:32:34] "GET /static/assets/fonts/LineIcons.woff2 HTTP/1.1" 200 51608
+[17/Dec/2020 05:48:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Dec/2020 05:48:57] "  /*à     Cookie: mstshash=Administr" 400 -
