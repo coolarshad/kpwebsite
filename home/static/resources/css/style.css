@@ -9,6 +9,23 @@ html{
     font-family: 'Roboto', sans-serif;
     /* background-color:rgb(216, 212, 212); */
 }
+.about_p{
+    float: left;
+    width: 100%;
+    margin:auto;
+    height: 300px;
+}
+.about_p p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fdfdfd;
+    
+
+ 
+    font-weight: 400;
+    
+    margin: 24px 0 0 0;
+}
 
 .navbar-area .container nav .navbar-brand img{
     display:inline-block;
@@ -68,6 +85,9 @@ a{
     height: 12px;
     background-color: #404040;
 }
+.carousel-item img{
+    height: 500px;
+}
 #whatwedo h1{
     text-align:center;
     padding-top: 30px;
@@ -82,6 +102,14 @@ a{
 }
 #whatwedo{
     background-color:red ;
+}
+
+#productfiles{
+    margin-top: 120px;
+    background-color:#f4f6f7;
+}
+#productfiles h5{
+    color: rgb(54, 53, 53);
 }
 
 #products{
@@ -149,7 +177,9 @@ a{
 .about-area .lni{
     color:white;
 }
-
+.about_p{
+    padding-top: 50px;
+}
 #contacts{
     height:200vh;
     background-color:#8cc320;
@@ -166,8 +196,12 @@ a{
 
 .text-center p,.footer-logo img{
     color:white;
-}
 
+}
+.footer-logo a img{
+    height:300px;
+    width:100%;
+}
 
 
 
@@ -266,3 +300,189 @@ a{
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+
+
+@media (max-width: 375px){
+    .navbar-area .container nav .navbar-brand img {
+        display: inline-block;
+        height: 80px;
+    }
+    .navbar-area .container nav{
+        position: fixed;
+        background-color:rgb(255, 255, 255);
+        height:80px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        margin-left: auto ;
+        margin-right:auto ;
+        text-align: center;
+        color:rgb(65, 62, 62);
+        z-index:999;
+        
+    }
+    #home .carousel-caption{
+        top: 70%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+       
+    }
+    #home .carousel-caption h3{
+        font-size: 20px;
+        font-weight:lighter;
+    }
+    .black-overlay{
+        position:absolute;
+        top: 0px;
+        left:0px;
+        height:100%;
+        width:100%;
+        background-color:rgba(0, 0, 0, 0.25);
+    }
+    .carousel-item img{
+        height: 400px;
+    }
+    #carouselExampleIndicators{
+        margin-top: 50px;
+        height: 100%;
+    }
+    .carousel-indicators li {
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        background-color: #404040;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+
+    .features-area {
+        background-color: rgb(206 44 40);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .portfolio-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about_p{
+        padding-top: 0;
+    }
+    .testimonial-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        /* background-color: #8cc320; */
+        padding-top: 30px;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+
+    .footer-logo a img{
+        height:150px;
+        width:50%;
+    }
+    .section-title{
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+    .footer-logo a img{
+        height:250px;
+        width:75%;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+       
+    }
+    .contact-info .single-contact-info .contact-info-content {
+        padding-left: 0; }
+
+        .navbar-area .container nav .navbar-brand img {
+            display: inline-block;
+            height: 100px;
+        
+        }
+        .navbar-area .container nav{
+            position: fixed;
+            background-color:rgb(255, 255, 255);
+            height:100px;
+            width: 100%;
+            top: 0;
+            right: 0;
+            bottom:0;
+            left: 0;
+            margin-left: auto ;
+            margin-right:auto ;
+            text-align: center;
+            color:rgb(65, 62, 62);
+            z-index:999;
+            
+        }
+}
+
+@media (max-width: 991px){
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+    .footer-logo a img{
+        height:250px;
+        width:75%;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+       
+    }
+    .contact-info .single-contact-info .contact-info-content {
+        padding-left: 0; }
+
+        .navbar-area .container nav .navbar-brand img {
+            display: inline-block;
+            height: 100px;
+        
+        }
+        .navbar-area .container nav{
+            position: fixed;
+            background-color:rgb(255, 255, 255);
+            height:100px;
+            width: 100%;
+            top: 0;
+            right: 0;
+            bottom:0;
+            left: 0;
+            margin-left: auto ;
+            margin-right:auto ;
+            text-align: center;
+            color:rgb(65, 62, 62);
+            z-index:999;
+            
+        }
+}

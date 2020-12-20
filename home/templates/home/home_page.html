@@ -1,6 +1,6 @@
 <!doctype html>
-{% load static %}
-{% load wagtailcore_tags wagtailimages_tags %}
+{% load static widget_tweaks %}
+{% load wagtailcore_tags wagtailimages_tags custometags %}
 
 <html class="no-js" lang="en">
 
@@ -72,7 +72,7 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                        
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="#home">
                             <img src="{% static 'resources/images/logo.png' %}" alt="Logo">
                         </a>
                         
@@ -116,8 +116,8 @@
             <div class="carousel-inner">
                 
                     <div class="carousel-item active">
-                        {% image first_image.image original height="500px" class="d-block w-100" %}
-                        <div class="carousel-caption d-none d-md-block">
+                        {% image first_image.image original class="d-block w-100" %}
+                        <div class="carousel-caption d-md-block d-sm-block">
                             <h3 class="mb-3">{{first_image.caption}}</h3>
                            
                           </div>
@@ -126,8 +126,8 @@
             
                 {%for i in image_list %}
               <div class="carousel-item ">
-                {% image i.image original height="500px" class="d-block w-100" %}
-                <div class="carousel-caption d-none d-md-block">
+                {% image i.image original class="d-block w-100" %}
+                <div class="carousel-caption d-md-block d-sm-block">
                     <h3 class="mb-3">{{i.caption}}</h3>
                    
                   </div>
@@ -173,7 +173,7 @@
                 {% endfor %}
                
                
-               
+
                 
             </div> 
         </div> 
@@ -209,6 +209,23 @@
                 <div class="col-lg-9 col-md-9">
                     <div class="row no-gutters grid mt-50">
                        {% for product in productpages %} 
+                       {% if product.slug == "lubricants" %}
+                       <div class="col-lg-4 col-sm-6 {{product.slug}}">
+                        <div class="single-portfolio">
+                            <div class="portfolio-image">
+                                {% image product.image width-400 height-280 %}
+                                <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                    <div class="portfolio-content">
+                                        <div class="portfolio-icon">
+                                            <p class="cardtitle">{{product.title}}</p>
+                                            <a class="btn cardbtn" href="http://www.dynamolubricants.com/">More >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                       {% else %}
                         <div class="col-lg-4 col-sm-6 {{product.slug}}">
                             <div class="single-portfolio">
                                 <div class="portfolio-image">
@@ -224,6 +241,7 @@
                                 </div>
                             </div> 
                         </div>
+                        {% endif %}
                         {% endfor %}
                       
                        
@@ -248,70 +266,43 @@
             </div>
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="testimonial-left-content mt-45">
+                    <div class="testimonial-left-content mt-lg-45 mt-md-30 mt-sm-15">
+                       <div class="about_p">
+                           <p>{{about.about_text}}</p>
+                       </div>
                         
-                      
-                        <div class="pt-5"></div>
-                        <p class="text p_copy pt-3">KISMAT PETROLEUM TRADING PTE LTD IS ONE OF THE LEADING INDEPENDENT ENERGY TRADING COMPANIES IN SOUTH EAST ASIA. STRATEGICALLY HEADQUARTERED IN SINGAPORE, WE CATER TO CUSTOMERS ACROSS THE GLOBE IN OVER 40+ COUNTRIES</p>
+                       
                     </div> 
                 </div>
                 <div class="col-lg-6">
-                    <div class="testimonial-right-content mt-50">
+                    <div class="testimonial-right-content mt-30">
                         <div class="quota">
                             <i class="lni lni-quotation"></i>
                         </div>
                         <div class="testimonial-content-wrapper testimonial-active">
+                            {% for i in about_review %}
                             <div class="single-testimonial">
                                 <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                                    <p class="text">{{i.review}}</p>
                                 </div>
                                 <div class="testimonial-author d-sm-flex justify-content-between">
                                     <div class="author-info d-flex align-items-center">
                                         <div class="author-image">
-                                            <img src="{% static 'resources/images/author-1.jpg' %}" alt="author">
+                                            {% image i.image width-100 %}
+                                            <!-- <img src="{% static 'resources/images/author-1.jpg' %}" alt="author"> -->
                                         </div>
                                         <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
+                                            <h5 class="name">{{i.name}}</h5>
+                                            <span class="sub-title">{{i.position}}</span>
                                         </div>
                                     </div>
                                    
                                 </div>
                             </div> 
-                            <div class="single-testimonial">
-                                <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
-                                </div>
-                                <div class="testimonial-author d-sm-flex justify-content-between">
-                                    <div class="author-info d-flex align-items-center">
-                                        <div class="author-image">
-                                                <img src="{% static 'resources/images/author-2.jpg' %}" alt="author">
-                                        </div>
-                                        <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="single-testimonial">
-                                <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
-                                </div>
-                                <div class="testimonial-author d-sm-flex justify-content-between">
-                                    <div class="author-info d-flex align-items-center">
-                                        <div class="author-image">
-                                                <img src="{% static 'resources/images/author-3.jpg' %}" alt="author">
-                                        </div>
-                                        <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div> 
+                            {% endfor %}
+                            
+                            
+                           
                         </div> 
                     </div>
                 </div>
@@ -401,10 +392,10 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="testimonial-left-content mt-45">
+                    <div class="testimonial-left-content mt-lg-45 mt-sm-15 mt-md-30>
                         <h4 class="title">What Clients Says <br> About Us</h4>
                         
-                        <p class="text">Duis et metus et massa tempus lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ultricies, orci molestie blandit interdum. <br> <br> ipsum ante pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci molestie blandit interdum.</p>
+                        <p class="text">{{about.what_client_say_text}}</p>
                     </div> 
                 </div>
                 <div class="col-lg-6">
@@ -413,57 +404,29 @@
                             <i class="lni lni-testimonial lni-quotation"></i>
                         </div>
                         <div class="testimonial-content-wrapper testimonial-active">
+                            {% for i in client_review %}
                             <div class="single-testimonial">
                                 <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                                    <p class="text">{{i.review}}</p>
                                 </div>
                                 <div class="testimonial-author d-sm-flex justify-content-between">
                                     <div class="author-info d-flex align-items-center">
                                         <div class="author-image">
-                                            <img src="{% static 'resources/images/author-1.jpg' %}" alt="author">
+                                            {% image i.image width-100 %}
+                                            <!-- <img src="{% static 'resources/images/author-1.jpg' %}" alt="author"> -->
                                         </div>
                                         <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
+                                            <h5 class="name">{{i.name}}</h5>
+                                            <span class="sub-title">{{i.position}}</span>
                                         </div>
                                     </div>
                                    
                                 </div>
                             </div> 
-                            <div class="single-testimonial">
-                                <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
-                                </div>
-                                <div class="testimonial-author d-sm-flex justify-content-between">
-                                    <div class="author-info d-flex align-items-center">
-                                        <div class="author-image">
-                                                <img src="{% static 'resources/images/author-2.jpg' %}" alt="author">
-                                        </div>
-                                        <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div> 
-                            <div class="single-testimonial">
-                                <div class="testimonial-text">
-                                    <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
-                                </div>
-                                <div class="testimonial-author d-sm-flex justify-content-between">
-                                    <div class="author-info d-flex align-items-center">
-                                        <div class="author-image">
-                                                <img src="{% static 'resources/images/author-3.jpg' %}" alt="author">
-                                        </div>
-                                        <div class="author-name media-body">
-                                            <h5 class="name">Mr. Jems Bond</h5>
-                                            <span class="sub-title">CEO Mbuild Firm</span>
-                                        </div>
-                                    </div>
-                                  
-                                </div>
-                            </div> 
+                            {% endfor %}
+                             
+                            
+                            
                         </div>
                     </div> 
                 </div>
@@ -473,11 +436,11 @@
 
   
 
-    <section id="team" class="team-area pt-120 pb-130">
+    <section id="team" class="team-area pt-lg-120 pb-lg-130 pt-md-100 pt-sm-120 pb-md-50 pb-sm-30">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
-                    <div class="section-title text-center pb-30 mb-3">
+                    <div class="section-title text-center pb-lg-30 pb-sm-15  mb-lg-3 mb-sm-1">
                         <h3 class="title">VISION & MISSION</h3>
                     </div> 
                     
@@ -616,7 +579,7 @@
                         </div> <!-- single contact info -->
                     </div>
                     <div class="col-lg-5 col-md-6">
-                        <div class="single-contact-info contact-color-2 mt-30 d-flex ">
+                        <div class="single-contact-info contact-color-2 mt-30 d-flex">
                             <div class="contact-info-icon">
                                 <i class="lni lni-envelope"></i>
                             </div>
@@ -696,7 +659,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-2" href="home_page.html"><img src="{% static 'resources/images/logo/logo.png' %}" height="300px" width="100%"  alt="Logo"></a>
+                        <a class="mt-2" href="home_page.html"><img src="{% static 'resources/images/logo/logo.png' %}" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-2">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
@@ -705,8 +668,8 @@
                         <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                     </ul> <!-- social -->
                     <div class="footer-support text-center">
-                        <span class="number">+xxxxxxxxxxxx</span>
-                        <span class="mail">xxxxxxxxxx@xxxxxxxx.com</span>
+                        <span class="number">+6591260210</span>
+                        <span class="mail">info@kismatpetroleum.com</span>
                     </div>
                    
                 </div>
@@ -828,6 +791,12 @@
             document.getElementById("myForm").style.display = "none";
             }
         $(document).ready(function () {
+
+            $(".slides").slick({
+                autoplay: true,
+                mobileFirst: true,//add this one
+            }
+
                 $('.carousel').carousel({
                     interval:3000,
                 });
