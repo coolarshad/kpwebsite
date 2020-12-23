@@ -89,7 +89,7 @@
                                 <!-- <li class="nav-item"><a class="page-scroll" href="#about">About</a></li> -->
                                
                                 <li class="nav-item"><a class="page-scroll" href="#portfolio">OUR PRODUCTS</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#about">ABOUT</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#testimonial">ABOUT</a></li>
                                 
                                 <li class="nav-item"><a class="page-scroll" href="#team">VISION & MISSION</a></li>
                                 <!-- <li class="nav-item"><a class="page-scroll" href="#pricing">Blog</a></li> -->
@@ -207,7 +207,7 @@
                     </div> 
                 </div>
                 <div class="col-lg-9 col-md-9">
-                    <div class="row no-gutters grid mt-50">
+                    <div class="row no-gutters grid mt-50" id="allproducts">
                        {% for product in productpages %} 
                        {% if product.slug == "lubricants" %}
                        <div class="col-lg-4 col-sm-6 {{product.slug}}">
@@ -254,7 +254,7 @@
     </section>
 
    
-    <section id="about" class="about-area">
+        <!-- <section id="about" class="about-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
@@ -289,7 +289,7 @@
                                     <div class="author-info d-flex align-items-center">
                                         <div class="author-image">
                                             {% image i.image width-100 %}
-                                            <!-- <img src="{% static 'resources/images/author-1.jpg' %}" alt="author"> -->
+                                            
                                         </div>
                                         <div class="author-name media-body">
                                             <h5 class="name">{{i.name}}</h5>
@@ -308,7 +308,7 @@
                 </div>
             </div> 
         </div> 
-    </section>
+    </section>  -->
 
    
 
@@ -390,12 +390,20 @@
 
     <section id="testimonial" class="testimonial-area">
         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">ABOUT US</h3>
+                        <p class="text"></p>
+                    </div> 
+                </div>
+            </div>
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="testimonial-left-content mt-lg-45 mt-sm-15 mt-md-30>
-                        <h4 class="title">What Clients Says <br> About Us</h4>
-                        
-                        <p class="text">{{about.what_client_say_text}}</p>
+                    <div class="testimonial-left-content mt-lg-45 mt-sm-15 mt-md-30">
+                        <!-- <h4 class="title">What Clients Says <br> About Us</h4> -->
+                        <br>
+                        <p style="font-size: 20px;" class="text-justify ">{{about.about_text}}</p>
                     </div> 
                 </div>
                 <div class="col-lg-6">
@@ -404,7 +412,7 @@
                             <i class="lni lni-testimonial lni-quotation"></i>
                         </div>
                         <div class="testimonial-content-wrapper testimonial-active">
-                            {% for i in client_review %}
+                            {% for i in about_review %}
                             <div class="single-testimonial">
                                 <div class="testimonial-text">
                                     <p class="text">{{i.review}}</p>
@@ -424,6 +432,7 @@
                                 </div>
                             </div> 
                             {% endfor %}
+                              
                              
                             
                             
@@ -558,14 +567,14 @@
                         <!-- <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p> -->
                     </div> <!-- section title -->
                 </div>
-            </div> <!-- row -->
+            </div> 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-map mt-30">  
                         <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.6004265859398!2d103.85051751176076!3d1.2923600990574362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a1350d10f1%3A0xe471fd72f9ffcba1!2sPeninsula%20Plaza%20Singapore!5e0!3m2!1sen!2snp!4v1604809094693!5m2!1sen!2snp" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    </div> <!-- row -->
+                    </div> 
                 </div>
-            </div> <!-- row -->
+            </div> 
             <div class="contact-info pt-30">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -576,7 +585,7 @@
                             <div class="contact-info-content media-body">
                                 <p class="text"> Address: 111, North Bridge Rd., Peninsula Plaza, Singapore </p>
                             </div>
-                        </div> <!-- single contact info -->
+                        </div> 
                     </div>
                     <div class="col-lg-5 col-md-6">
                         <div class="single-contact-info contact-color-2 mt-30 d-flex">
@@ -585,7 +594,7 @@
                             </div>
                             <div class="contact-info-content media-body">
                                 <p class="text">info@kismatpetroleum.com</p>
-                                <p class="text">annie.sarceno@kismatpetroleum.com</p>
+                                <!-- <p class="text">annie.sarceno@kismatpetroleum.com</p> -->
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -807,6 +816,8 @@
                     accessibility: true,
                     arrows: true,
                 });
+
+            
             });
     </script>
     <style>

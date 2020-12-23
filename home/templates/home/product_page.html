@@ -1,23 +1,16 @@
 {% load static wagtailcore_tags wagtailimages_tags %}
 
-
-
 <!doctype html>
-
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="utf-8">
-    
     <!--====== Title ======-->
     <title>KISMAT PETROLIUM</title>
-    
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{% static 'resources/images/logo/logo.png' %}" sizes="100x100" type="image/png">
-        
+    
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
         
@@ -43,8 +36,6 @@
 
     <!-- ManyChat -->
 <script src="//widget.manychat.com/100821988548005.js" async="async"></script>
-      
-
       
 </head>
 
@@ -91,7 +82,7 @@
                                 <!-- <li class="nav-item"><a class="page-scroll" href="#about">About</a></li> -->
                                
                                 <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#portfolio">OUR PRODUCTS</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#about">ABOUT</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#testimonial">ABOUT</a></li>
                                 
                                 <li class="nav-item"><a class="page-scroll" href="{{page.get_parent.url}}#team">VISION & MISSION</a></li>
                                 <!-- <li class="nav-item"><a class="page-scroll" href="#pricing">Blog</a></li> -->
@@ -100,18 +91,14 @@
                         </div>
                         
                       
-                    </nav> <!-- navbar -->
+                    </nav> 
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div> 
+        </div> 
     </section>
 
    
-  
-    
-   
-   
-   
+ 
     <section id="productfiles" class="product-page p-lg-5 p-2">
         <div class="container">
             <div class="row justify-content-center">
@@ -122,15 +109,16 @@
                     </div> 
                 </div>
             </div> 
-           
-                {% with blocks=self.body %}
-                    {% for block in blocks %}
-                    <div class="row">
-                        <div>{% include_block block %}</div>
-                    </div> 
-                    {% endfor %} 
-
-                {% endwith %}
+             
+                    {% with blocks=self.body %}
+                        {% for block in blocks %}
+                        <div class="row">                 
+                            {% include_block block %}
+                        </div> 
+                        {% endfor %} 
+                    {% endwith %}
+               
+                
                
         </div> 
     </section>

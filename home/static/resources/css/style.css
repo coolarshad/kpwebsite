@@ -179,7 +179,7 @@ a{
 
 
 .testimonial-area .lni{
-    color: black;
+    color: rgb(65, 62, 62);
 }
 
 .about-area .lni{
@@ -188,6 +188,11 @@ a{
 .about_p{
     padding-top: 50px;
 }
+.testimonial-area .section-title .title{
+    color: rgb(65, 62, 62);
+}
+
+
 #contacts{
     height:200vh;
     background-color:#8cc320;
@@ -208,7 +213,7 @@ a{
 }
 .footer-logo a img{
     height:300px;
-    width:100%;
+    width:80%;
 }
 
 

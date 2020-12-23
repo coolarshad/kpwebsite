@@ -21,3 +21,8 @@ def richtext_withclasses(value):
         )
 
     return mark_safe(html)
+
+@register.simple_tag
+def get_group_name(text):
+    x = text.split(" : ")
+    return x[0]

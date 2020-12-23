@@ -122,10 +122,15 @@ $(function() {
 
         // filter items on button click
         $('.portfolio-menu ul').on('click', 'li', function () {
+           
             var filterValue = $(this).attr('data-filter');
+            
             $grid.isotope({
                 filter: filterValue
             });
+           
+            $('html, body').animate({ scrollTop: $('#allproducts').offset().top-200 }, 'slow');
+
         });
 
         //for menu active class
