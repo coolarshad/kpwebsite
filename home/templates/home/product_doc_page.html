@@ -1,4 +1,4 @@
-{% load static wagtailcore_tags wagtailimages_tags custometags %}
+{% load static wagtailcore_tags wagtailimages_tags %}
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -109,39 +109,9 @@
                     </div> 
                 </div>
             </div> 
-             {% if self.title != 'BASE OIL' %}
-                    {% with blocks=self.body %}
-                        {% for block in blocks %}
-                        <div class="row">                 
-                            {% include_block block %}
-                        </div> 
-                        {% endfor %} 
-                    {% endwith %}
-            {% else %}
-                        {% for c in self.get_category_wise %}
-                        <div class="row m-3">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              {{c}}
-                            </button>
-                            <div class="dropdown-menu">
-                                {% get_products_categorywise c as prods %}
-                                {% for prod in prods %}
-                                <a class="dropdown-item" href="{{prod.product_file.url}}">{{prod.title}}</a>
-                                <div class="dropdown-divider"></div>
-                                
-                                {% endfor %}
-                            </div>
-                          </div>
-                        </div>
-                       
-                        {% endfor %}
-
-                       
-                        
-                        
-            {%endif %}
-               
+            {{self.title}}
+            <p>{{self.product_name}}</p>
+            <p>{{self.description}}</p>
                 
                
         </div> 

@@ -9,6 +9,9 @@ from wagtail.core import blocks
 from wagtail.documents.blocks import DocumentChooserBlock
 from wagtail.core.blocks import StructBlock
 from .blocks import *
+from wagtail.snippets.models import register_snippet
+from modelcluster.fields import ParentalKey, ParentalManyToManyField
+from wagtail.documents.edit_handlers import DocumentChooserPanel
 
 
 class HomePage(Page):
@@ -121,6 +124,7 @@ class WhatWeDoPage(Page):
     ]
 
 class ProductPage(Page):
+    # categories = ParentalManyToManyField('home.ProductCategory', blank=True)
     image = models.ForeignKey(
         'wagtailimages.Image', on_delete=models.SET_NULL,null=True, related_name='+'
     )
@@ -132,6 +136,29 @@ class ProductPage(Page):
     content_panels = Page.content_panels + [
         ImageChooserPanel('image'),
         StreamFieldPanel('body'),
+        # FieldPanel('categories', widget=forms.CheckboxSelectMultiple),
     ]
+
+    def get_category_wise(self):
+        return ProductDocPage.objects.order_by().values_list('product_name',flat=True).distinct().order_by('product_name')
+    
+class ProductDocPage(Page):
+    product_name=models.CharField(max_length=300,null=True,blank=True)
+    description=models.CharField(max_length=1000,null=True,blank=True)
+    product_file = models.ForeignKey(
+        'wagtaildocs.Document',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+
+    content_panels = Page.content_panels + [
+        FieldPanel('product_name',classname="full"),
+        FieldPanel('description',classname="full"),
+        DocumentChooserPanel('product_file'),
+        # FieldPanel('categories', widget=forms.CheckboxSelectMultiple),
+    ]
+
     
 
