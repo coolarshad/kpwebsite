@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+# files:
+#   - source: /index.html
+#     destination: /var/www/html/
+hooks:
+  ApplicationStop:
+    - location: scripts/stopservice.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+    - location: scripts/requirements.sh
+      timeout: 300
+      runas: root
+    - location: scripts/startservice.sh
+      timeout: 300
+      runas: root
+
