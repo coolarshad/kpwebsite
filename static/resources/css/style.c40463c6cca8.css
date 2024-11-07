@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color:rgb(216, 212, 212); */
+}
+.about_p{
+    float: left;
+    width: 100%;
+    margin:auto;
+    height: 300px;
+}
+.about_p p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fdfdfd;
+    
+
+ 
+    font-weight: 400;
+    
+    margin: 24px 0 0 0;
+}
+
+.navbar-area .container nav .navbar-brand img{
+    display:inline-block;
+    height:150px;
+}
+.navbar-area .container nav{
+    position: fixed;
+    background-color:rgb(255, 255, 255);
+    height:120px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    margin-left: auto ;
+    margin-right:auto ;
+    text-align: center;
+    color:rgb(65, 62, 62);
+    z-index:999;
+    
+}
+
+
+
+a{
+    padding:5px;
+    /* border: 1px solid black; */
+    /* border-bottom:3px solid black; */
+}
+#home p{
+    color: white;
+}
+.lead p{
+    color: white!important;
+}
+#home .carousel-caption{
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.black-overlay{
+    position:absolute;
+    top: 0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+#carouselExampleIndicators{
+    margin-top: 100px;
+    height: 100%;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-item img{
+    height: 500px;
+}
+#whatwedo h1{
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#whatwedo p{
+    text-align:center;
+    padding: 10px;
+    color: white;
+}
+#whatwedo{
+    background-color:red ;
+}
+
+#productfiles{
+    margin-top: 120px;
+    background-color:#f4f6f7;
+}
+#productfiles h5{
+    color: rgb(54, 53, 53);
+}
+
+#products{
+    padding-top:100px;
+    height:200vh;
+    background-color:rgb(250, 250, 250);
+
+}
+#products h1{
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#products p{
+    text-align:center;
+    padding: 10px;
+    color:black;
+}
+.presence_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.presence_buttons ul{
+    margin-left: 10px;
+}
+.presence_buttons ul li{
+    display: block;
+    margin: 0;
+    padding:0; 
+    /* padding:10px; */
+    color:white;
+    
+}
+.presence_images{
+    display: flex;
+}
+.team-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.section-title h3{
+    /* margin-bottom:20px; */
+}
+
+#recognitions{
+    padding-top: 50px;
+    height:120vh;
+    background-color:#8cc320;
+    /* color: white; */
+    /* color:black; */
+
+}
+#recognitions h1{
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#recognitions p{
+    text-align:center;
+    padding: 10px;
+}
+
+
+
+.testimonial-area .lni{
+    color: rgb(65, 62, 62);
+}
+
+.about-area .lni{
+    color:white;
+}
+.about_p{
+    padding-top: 50px;
+}
+.testimonial-area .section-title .title{
+    color: rgb(65, 62, 62);
+}
+
+
+#contacts{
+    height:200vh;
+    background-color:#8cc320;
+
+}
+
+.footer-area{
+    padding-top:50px;
+    /* height:80vh; */
+    background-color:rgb(34, 33, 33);
+    color: white;
+
+}
+
+.text-center p,.footer-logo img{
+    color:white;
+
+}
+.footer-logo a img{
+    height:280px;
+    width:80%;
+}
+
+
+
+/* for chat bot */
+
+.open-button {
+    background-color: #555;
+    color: rgb(248, 248, 248);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    font-size:smaller;
+    display: none;
+    position: fixed;
+    bottom:10px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    
+    width: 400px;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: white;
+  }
+  .form-container h3{
+      color:gray;
+  }
+  .form-container #accordion{
+    text-decoration: none;
+}
+  
+  /* Full-width textarea */
+  .form-container #accordion {
+    overflow:scroll;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    height: 300px;
+  }
+  
+  
+  /* When the textarea gets focus, do something */
+  /* .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  } */
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: rgb(241, 238, 238);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:0;
+    opacity: 0.8;
+  }
+
+  .form-container .btn1 {
+    /* background-color: #4CAF50; */
+    color: rgb(54, 53, 53);
+    /* padding: 10px 15px; */
+    border: none;
+    /* cursor: pointer; */
+    width: 100%;
+    margin-bottom:0;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: rgb(250, 4, 4);
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+@media (max-width: 375px) and (min-width: 1px){
+    
+    .navbar-area .container nav .navbar-brand img {
+        display: inline-block;
+        height: 80px;
+    }
+    .navbar-area .container nav{
+        position: fixed;
+        background-color:rgb(255, 255, 255);
+        height:80px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        margin-left: auto ;
+        margin-right:auto ;
+        text-align: center;
+        color:rgb(65, 62, 62);
+        z-index:999;
+        
+    }
+    #home .carousel-caption{
+        /* display:none; */
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+       
+    }
+    #home .carousel-caption h3{
+        font-size: 20px;
+        font-weight:lighter;
+    }
+    .black-overlay{
+        position:absolute;
+        top: 0px;
+        left:0px;
+        height:100%;
+        width:100%;
+        background-color:rgba(0, 0, 0, 0.25);
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    #carouselExampleIndicators{
+        margin-top: 50px;
+        height: 100%;
+    }
+    .carousel-indicators li {
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        background-color: #404040;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+
+    .features-area {
+        background-color: rgb(206 44 40);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .portfolio-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about_p{
+        padding-top: 0;
+    }
+    .testimonial-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        /* background-color: #8cc320; */
+        padding-top: 30px;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+
+    .footer-logo a img{
+        height:150px;
+        width:65%;
+    }
+    .section-title{
+        /* margin-bottom:30px; */
+    }
+    .section-title h3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) and (min-width:376px){
+    
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+    .footer-logo a img{
+        height:250px;
+        width:70%;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+       
+    }
+    .contact-info .single-contact-info .contact-info-content {
+        padding-left: 0; }
+
+        .navbar-area .container nav .navbar-brand img {
+            display: inline-block;
+            height: 100px;
+        
+        }
+        .navbar-area .container nav{
+            position: fixed;
+            background-color:rgb(255, 255, 255);
+            height:100px;
+            width: 100%;
+            top: 0;
+            right: 0;
+            bottom:0;
+            left: 0;
+            margin-left: auto ;
+            margin-right:auto ;
+            text-align: center;
+            color:rgb(65, 62, 62);
+            z-index:999;
+            
+        }
+}
+
+ @media (max-width: 991px) and (min-width: 769px){ 
+   
+    .navbar-toggler {
+        margin-right: 20px;
+        background-color: #c40821;
+    }
+    .footer-logo a img{
+        height:250px;
+        width:60%;
+    }
+    .contact-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .team-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+       
+    }
+    .contact-info .single-contact-info .contact-info-content {
+        padding-left: 0; }
+
+        .navbar-area .container nav .navbar-brand img {
+            display: inline-block;
+            height: 100px;
+        
+        }
+        .navbar-area .container nav{
+            position: fixed;
+            background-color:rgb(255, 255, 255);
+            height:100px;
+            width: 100%;
+            top: 0;
+            right: 0;
+            bottom:0;
+            left: 0;
+            margin-left: auto ;
+            margin-right:auto ;
+            text-align: center;
+            color:rgb(65, 62, 62);
+            z-index:999;
+            
+        }
+}
